@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN" data-speech-assets="excluded">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8f5">
+  <meta name="description" content="免登录的 SWT 英语口语基础练习：阅读题目、用自己的话回答、本地录音回听与免费文本结构检查。源码预览暂不含配音。">
+  <title>Speak easy · 你的英语练习室</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23d4432c'/%3E%3Cpath d='M18 26v12m9-20v28m10-24v20m10-16v12' stroke='white' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+<header class="masthead">
+  <button class="wordmark" data-view="today" data-aria="home"><span class="logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6m6-11v16m6-13v10m6-8v6"/></svg></span> speak <em>easy.</em></button>
+  <nav class="nav" data-aria="navigation"><button class="active" data-view="today" data-t="navToday"></button><button data-view="course" data-t="navCourse"></button><button data-view="simulator" data-t="navPractice"></button><button data-view="rescue" data-t="navRescue"></button><button data-view="bank" data-t="navBank"></button><button data-view="progress" data-t="navProgress"></button></nav>
+  <div class="header-tools">
+    <label class="language-label"><span data-t="language"></span><select id="languageSelect" data-aria="language"><option value="zh-CN">简体中文</option><option value="en">English</option></select></label>
+    <button class="motion-toggle" id="motionToggle" aria-pressed="true" data-aria="motionLabel"></button>
+    <details class="audio-settings" id="audioSettings"><summary data-aria="audioSettings"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4zM15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/></svg><span id="audioSettingsLabel"></span></summary>
+    <div class="audio-panel"><h3>Sound, with a little life.</h3><p data-t="voices"></p><div class="voice-samples"><button id="auditionInterviewer" data-t="hearJamie"></button><button id="auditionCoach" data-t="hearMia"></button></div><label class="audio-volume-label" for="audioVolume"><span data-t="volume"></span><output id="volumeReadout">85%</output></label><input type="range" id="audioVolume" min="0" max="100" value="85" data-aria="volume"><label class="audio-check"><input id="effectsEnabled" type="checkbox" checked><span data-t="effects"></span></label><button class="btn-text" id="auditionEffects" data-t="auditionEffects"></button><p class="audio-disclosure" data-t="audioDisclosure"></p></div></details>
+  </div>
+</header>
+<main>
+  <p class="source-note" role="note" data-t="sourceOnlyNotice"></p>
+  <div class="page-header"><h1 id="pageTitle"></h1><span class="date" id="datePill"></span></div>
+  <section class="view active" id="today">
+    <article class="session-board">
+      <div class="session-intro">
+        <div class="lesson-index"><span class="small-caps">UNIT</span><span class="number" id="homeUnit">01</span><span class="small-caps" style="margin-left:auto" data-t="roundSize"></span></div>
+        <h2 class="lesson-title" id="homeTitle"></h2><p id="homeSummary"></p>
+        <div class="start-row"><span class="magnetic-wrap"><button class="btn btn-accent" id="startDay7" data-t="startRound"></button></span><span class="small-caps" id="homeTaskLabel" data-t="firstTask"></span></div>
+      </div>
+      <div class="session-preview">
+        <div class="preview-top"><span class="small-caps">A QUESTION TO START WITH</span><span class="live-label" id="homeTaskNumber">01 / 05</span></div>
+        <div class="preview-call"><span class="initial">J</span><div class="call-name">Jamie<small data-t="interviewer"></small></div></div>
+        <p class="preview-question" id="homeQuestion" lang="en"></p>
+        <div class="sound-row"><button class="play" id="previewListen" data-aria="preview"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 10 7-10 7z"/></svg></button><div class="sound-bars" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><span class="sound-note" id="voiceStatus" aria-live="polite"></span></div>
+        <div class="preview-bottom" data-t="permissionToPause"></div>
+      </div>
+    </article>
+    <div class="under-board"><div class="flow">
+      <div class="flow-item"><span class="small-caps">01 / LISTEN</span><b data-t="listenStep"></b><p data-t="listenHint"></p></div>
+      <div class="flow-item"><span class="small-caps">02 / SPEAK</span><b data-t="speakStep"></b><p data-t="speakHint"></p></div>
+      <div class="flow-item"><span class="small-caps">03 / REFINE</span><b data-t="refineStep"></b><p data-t="refineHint"></p></div>
+    </div><div class="personal-note"><p data-t="doable"></p><p data-t="sampleNotice"></p></div></div>
+    <div class="journey-strip"><div class="metric"><b id="sessionsStat">0</b><span data-t="sessions"></span></div><div class="metric"><b id="minutesStat">0</b><span data-t="minutes"></span></div><div class="metric"><b id="scoreStat">—</b><span data-t="selfScore"></span></div><button class="btn-text" data-view="course" data-t="browseCourse"></button></div>
+  </section>
+  <section class="view" id="course">
+    <div class="section-head"><div><h2 data-t="courseTitle"></h2><p data-t="courseIntro"></p></div><button class="btn-text" id="startMock" data-t="startMock"></button></div><div class="course-list" id="courseList"></div>
+    <p class="source-note" data-t="courseLimits"></p>
+  </section>
+  <section class="view" id="simulator">
+    <div class="section-head"><div><h2>In the conversation room.</h2><p id="modeDescription"></p></div><button class="btn-text" id="randomQuestion" data-t="random"></button></div>
+    <div class="mode-controls"><label for="practiceMode" data-t="practiceMode"></label><select id="practiceMode"><option value="guided" data-t="guided"></option><option value="challenge" data-t="challenge"></option></select><span id="modeHint"></span></div>
+    <article class="interview-sheet" id="interviewSheet">
+      <div class="sheet-top"><span class="small-caps" id="roundLabel"></span><div class="stepper" id="stepper"></div></div>
+      <div class="interview-body">
+        <div class="prompt-space">
+          <div class="prompt-meta"><span class="category" id="questionTag"></span><span class="timer" id="timer">01:00</span></div>
+          <h3 class="question" id="questionText" lang="en"></h3><p class="question" id="listenFirst" data-t="listenFirst" hidden></p>
+          <div class="listening-row"><button class="play" id="listenQuestion" data-aria="playQuestion"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 10 7-10 7z"/></svg></button><button class="btn-text" id="showQuestion" data-t="showQuestion" hidden></button><button class="btn-text" id="showTranslation" data-t="showContext"></button><label class="speed"><span data-t="speed"></span><select id="speechRate" data-aria="speed"><option value=".8" data-t="slow"></option><option value="1" selected data-t="natural"></option></select></label></div>
+          <p class="cn-cue" id="questionCue" hidden></p>
+        </div>
+        <aside class="answer-panel"><h3 data-t="threePoints"></h3><p data-t="threePointsHint"></p><label class="keyword-line"><span>01</span><input id="point1" maxlength="200" data-placeholder="point1" data-aria="point1"></label><label class="keyword-line"><span>02</span><input id="point2" maxlength="200" data-placeholder="point2" data-aria="point2"></label><label class="keyword-line"><span>03</span><input id="point3" maxlength="200" data-placeholder="point3" data-aria="point3"></label><button class="btn-text" id="showFramework" data-t="showFrame"></button><p class="framework" id="frameworkBox" lang="en" hidden></p></aside>
+      </div>
+      <div class="record-bar"><div class="record-actions"><button class="btn btn-line" id="recordBtn"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="3" width="8" height="12" rx="4"/><path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3m-4 0h8"/></svg><span data-t="record"></span></button><button class="btn-text" id="startTimer"></button></div><button class="btn" id="completeQuestion" data-t="reviewAnswer"></button></div>
+      <div class="audio-wrap" id="audioWrap"></div>
+      <div class="coach-panel"><div class="coach-controls"><button class="btn-text" id="showExample" data-t="showExample"></button><button class="btn-text" id="showFollow" data-t="showFollow"></button></div><div class="coach-box" id="exampleBox" hidden><p class="source-note" data-t="sampleNotice"></p><p class="sample" id="exampleText" lang="en"></p><button class="btn btn-line" id="listenExample" data-t="listenExample"></button><p class="source-note" id="taskTip"></p></div><div class="coach-box" id="followBox" hidden><p class="sample" id="followText" lang="en"></p><button class="btn-text" id="listenFollow" data-t="listenFollow"></button><p class="source-note" data-t="followHint"></p></div></div>
+      <div class="text-review"><h3 data-t="textTitle"></h3><p class="source-note" data-t="textPrivacy"></p><label class="source-note" for="typedAnswer" data-t="answerLabel"></label><textarea id="typedAnswer" maxlength="2000" lang="en" spellcheck="true" data-placeholder="answerPlaceholder"></textarea><button class="btn btn-line" id="checkAnswer" data-t="checkText"></button><div class="feedback-output" id="feedbackOutput" role="status" aria-live="polite" hidden></div></div>
+      <div class="rubric" id="rubric" hidden>
+        <div class="rubric-head"><h3 data-t="reviewTitle"></h3><p data-t="scoreLimits"></p></div>
+        <ul class="task-checks" id="taskChecks"></ul>
+        <div class="score-grid"><div class="score-item"><label for="score1" data-t="score1"></label><select id="score1" data-score></select></div><div class="score-item"><label for="score2" data-t="score2"></label><select id="score2" data-score></select></div><div class="score-item"><label for="score3" data-t="score3"></label><select id="score3" data-score></select></div><div class="score-item"><label for="score4" data-t="score4"></label><select id="score4" data-score></select></div></div>
+        <div class="rubric-footer"><input id="oneChange" maxlength="500" data-placeholder="oneChange" data-aria="oneChange"><button class="btn btn-accent" id="saveAnswer"></button></div>
+      </div>
+    </article>
+    <div class="round-result" id="roundResult" hidden><span class="celebration-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg></span><h3 data-t="roundDone"></h3><p id="roundSummary"></p><button class="btn" id="nextLesson" data-t="nextLesson"></button><button class="btn btn-line" data-view="progress" data-t="viewProgress"></button></div>
+    <p class="source-note"><span data-t="referenceNote"></span> <a href="https://www.interexchange.org/programs/work-travel-usa/work-travel-usa-international-cooperator-guide/interview-documents/" target="_blank" rel="noreferrer">InterExchange</a> · <a href="https://www.ciee.org/in-the-usa/work/work-travel-usa/lets-get-started/finding-job" target="_blank" rel="noreferrer">CIEE</a></p>
+  </section>
+  <section class="view" id="rescue"><div class="section-head"><div><h2>A few words to keep going.</h2><p data-t="rescueIntro"></p></div></div><div class="phrase-grid" id="rescueGrid"></div></section>
+  <section class="view" id="bank"><div class="section-head"><div><h2>Words that sound like you.</h2><p data-t="bankIntro"></p></div></div><div class="filters" id="bankToolbar"></div><div id="bankList"></div></section>
+  <section class="view" id="progress">
+    <div class="section-head"><div><h2>Little by little.</h2><p data-t="progressIntro"></p></div><button class="btn-text" id="resetProgress" data-t="resetProgress"></button></div>
+    <div class="journal-layout"><div><div class="phase-heading"><h3 data-t="eightUnits"></h3><span id="phaseText">0 / 8</span></div><div class="phase-track" id="phaseTrack"></div><div id="history"></div><div class="review-queue"><h3 class="review-heading" data-t="reviewQueue"></h3><p class="source-note" data-t="reviewQueueHint"></p><div id="reviewQueue"></div></div></div>
+    <aside class="personal-journal"><h3>Keep it doable.</h3><div class="journal-note"><b data-t="smallNext"></b><p data-t="doable"></p></div><div class="journal-note"><b data-t="ownStory"></b><p data-t="sampleNotice"></p></div><div class="journal-note"><b data-t="localOnly"></b><p data-t="storageNotice"></p></div><p class="source-note" data-t="accountNotice"></p></aside></div>
+  </section>
+  <footer class="footer"><span class="small-caps">SPEAK EASY / ENGLISH IN REAL LIFE</span><span data-t="footer"></span></footer>
+</main>
+<audio id="voicePlayer" preload="none" hidden></audio><audio id="cuePlayer" preload="none" hidden></audio><div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="course-data.js"></script><script src="locales.js"></script><script src="feedback.js"></script><script src="app.js"></script>
+</body>
+</html>
