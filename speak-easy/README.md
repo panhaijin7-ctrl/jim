@@ -4,12 +4,13 @@ An account-free English speaking-practice prototype. The first audience is stude
 preparing for Summer Work Travel (SWT) interviews and communication at work in the US.
 The longer-term audience also includes Camp participants and everyday English learners.
 
-**This is a source-only preview, not a deployed website or a complete audio release.**
-Speech recordings are deliberately excluded because their public redistribution rights
-have not been verified. The preview explains this in English and Simplified Chinese;
-it does not request missing speech files or silently substitute browser TTS.
-Original feedback sounds, text practice and local microphone replay remain available.
-The listen-first challenge is unavailable in this snapshot; guided questions stay visible.
+**This repository contains the static app and its current course audio; it is not yet
+a deployed website.** At the repository owner's express request, the 276 active
+AI-synthesized speech recordings are included, with separate natural and slow readings.
+Question playback, model-answer playback, phrase playback and the listen-first challenge
+are enabled. Four original feedback sounds and local microphone replay are also included.
+The app plays static files; it does not generate new speech or silently use browser TTS.
+See [audio provenance](dist/audio/README.md) for voice IDs, source and publication notes.
 
 ## 当前版本（简体中文）
 
@@ -18,7 +19,7 @@ The listen-first challenge is unavailable in this snapshot; guided questions sta
 - 英文 / 简体中文界面；小轮练习、计时、录音回听、规则式文本检查和自主复盘。
 - 每次保存都会记录当前进度；刷新后可继续。保存失败时保留当前输入，不会假报成功。
 - 学习记录保存在当前浏览器；完整输入答案和录音不会上传或永久保存。
-- 暂不包含配音文件，原有 4 个原创提示音和页面动效仍保留。
+- 已按仓库所有者要求包含 276 段 AI 配音（自然 / 慢速两版），并保留 4 个原创提示音和页面动效。
 - 当前课程是 SWT 基础，不是完整 Camp 课程或通用英语课程，也不是官方考试。
 
 上传源码不等于网站已上线，不能把 GitHub 仓库链接当作学习网站链接。
@@ -46,13 +47,15 @@ English headlines are branding copy, not a claim of complete multilingual locali
 
 | File | Purpose |
 | --- | --- |
-| `dist/index.html` | Static interface; explicitly marks speech assets as excluded |
+| `dist/index.html` | Static bilingual interface with speech playback enabled |
 | `dist/app.js` | Practice flow, recording, local journal, motion and audio controls |
 | `dist/course-data.js` | English course content and localized guidance |
 | `dist/locales.js` | UI translation pairs |
 | `dist/feedback.js` | Visible deterministic text-check rules |
 | `dist/theme.css` | Existing responsive design and reduced-motion support |
 | `dist/audio/cue-*.wav` | Four original synthesized mallet feedback cues |
+| `dist/audio/*.mp3` | 276 fixed-course AI speech recordings |
+| `dist/audio/manifest.json` | Text, voice IDs, rates, file sizes and SHA-256 hashes |
 | `scripts/` | Dependency-free checks and fixed-content export tools |
 
 No npm install or build step is needed for these static assets. Verification scripts
@@ -65,7 +68,7 @@ not learner inputs. No voice-service credentials or voice-generation service are
 From this folder, run:
 
 ```text
-node scripts/check-content.mjs --without-speech-assets
+node scripts/check-content.mjs
 node scripts/check-runtime.mjs
 node --check dist/app.js
 node --check dist/course-data.js
@@ -74,10 +77,13 @@ node --check dist/feedback.js
 ```
 
 The content check verifies all 40 model answers against their text rules, course IDs,
-unit counts and referenced translation keys. The `--without-speech-assets` flag does
-not verify recordings and must not be represented as passing full-audio verification.
-Without that flag, a licensed full-audio distribution must provide its voice manifest
-and the expected 276 active recordings.
+unit counts and referenced translation keys, plus all 276 speech files against their
+manifest. It checks SHA-256 hashes, file sizes, fixed-course text, voice IDs, roles and
+reading rates. These technical checks do not determine redistribution or commercial rights.
+The optional `--without-speech-assets` flag skips audio checks and must not be represented
+as passing full-audio verification. If speech assets are intentionally omitted later,
+set `data-speech-assets="excluded"` on the HTML root to explain the missing audio and
+keep guided text practice available rather than requesting nonexistent clips.
 
 Fourteen in-memory regression checks cover microphone cleanup on failures and late
 permission responses; resumable per-answer checkpoints; quota and final-save failures;
@@ -107,15 +113,16 @@ solely in browser code. Free local practice should remain available without an a
 
 The existing `jim` repository's root README and history are preserved. This folder
 is a fresh source snapshot, not the original private Sites history. Local hosting
-configuration, credentials, private planning/chat files and unchecked speech assets
-are not included. No GitHub Pages configuration or Play Store package is published.
+configuration, credentials, private planning/chat files and unused legacy speech assets
+are not included. The current course's speech files are included following the owner's
+confirmation on 2026-10-06. No GitHub Pages configuration or Play Store package is published.
 
 Before launching the complete public learning website:
 
-1. Confirm speech redistribution rights or replace speech with appropriately licensed
-   recordings; document provenance, restore audio checks and enable the audio profile
-   only when the actual assets are present. Do not use copied Duolingo audio or cloned
-   character voices. This preview uses neither.
+1. Retain speech provenance and any permissions relied on by the owner; review terms
+   before commercial distribution or replace the recordings if needed. Uploading these
+   files does not itself grant a Microsoft license or verify commercial rights. Do not
+   use copied Duolingo audio or cloned character voices. This project uses neither.
 2. Verify recording, keyboard navigation, reduced motion, readable zoomed text and
    mobile layouts on real browsers.
 3. Expand and review separate SWT, Camp and everyday-speaking paths. Camp activities,

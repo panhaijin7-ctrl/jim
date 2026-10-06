@@ -10,7 +10,5 @@ __pycache__/
 .sites-runtime/
 .openai/
 
-# Speech redistribution rights have not been verified for this snapshot.
-# Add licensed assets only after review, with updated provenance and checks.
-dist/audio/*.mp3
-dist/audio/manifest.json
+# Current fixed-course speech assets are intentionally included.
+# Never add learner recordings, credentials or temporary service outputs.

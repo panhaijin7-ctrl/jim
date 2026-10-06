@@ -18,7 +18,12 @@ for(const [key,pair] of Object.entries(strings))assert.equal(pair.length,2,'Loca
 const withoutSpeechAssets=process.argv.includes('--without-speech-assets');
 if(!withoutSpeechAssets){const manifest=JSON.parse(fs.readFileSync(new URL('dist/audio/manifest.json',root),'utf8'));
 assert.equal(manifest.clips.length,276);
-for(const clip of manifest.clips){const bytes=fs.readFileSync(new URL('dist/audio/'+clip.file,root));assert.equal(bytes.length,clip.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),clip.sha256);}}
+assert.equal(new Set(manifest.clips.map(clip=>clip.file)).size,276);
+const voices={interviewer:'en-US-AndrewMultilingualNeural',coach:'en-US-AvaMultilingualNeural'},rates={natural:'-4%',slow:'-23%'};
+const fixedPrompts=tasks.flatMap(task=>[{id:task.audio,text:task.prompt,role:'interviewer'},{id:task.exampleAudio,text:task.model,role:'coach'},{id:task.followAudio,text:task.followUp,role:'interviewer'}]).concat(rescue.map((r,i)=>({id:'rescue-'+i,text:r.answer.split(' / ')[0],role:'coach'})),bank.map((b,i)=>({id:'bank-'+i,text:b.en.replaceAll(' / ',' '),role:'coach'})));
+const expectedClips=new Map(fixedPrompts.flatMap(prompt=>Object.entries(rates).map(([variant,rate])=>[prompt.id+'-'+variant+'.mp3',{...prompt,variant,rate,voice:voices[prompt.role]}])));
+assert.equal(expectedClips.size,276);
+for(const clip of manifest.clips){const expected=expectedClips.get(clip.file);assert.ok(expected,'Unknown audio file: '+clip.file);for(const key of ['text','role','variant','rate','voice'])assert.equal(clip[key],expected[key],'Audio '+key+' mismatch: '+clip.file);const bytes=fs.readFileSync(new URL('dist/audio/'+clip.file,root));assert.equal(bytes.length,clip.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),clip.sha256);}}
 const promptCount=new Set(tasks.flatMap(q=>[q.audio,q.exampleAudio,q.followAudio]).concat(rescue.map((_,i)=>'rescue-'+i),bank.map((_,i)=>'bank-'+i))).size;
 assert.equal(promptCount,138);
 console.log(JSON.stringify({units:8,tasks:40,modelAnswers:40,followUps:40,rescue:6,phrases:12,locales:['en','zh-CN'],voiceClips:withoutSpeechAssets?'not checked: source-only distribution':276,textCheckRules:c.window.SpeakEasyFeedback.rules.length,status:'passed'}));

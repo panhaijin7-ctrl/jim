@@ -1,0 +1,2765 @@
+{
+  "synthetic": true,
+  "clips": [
+    {
+      "file": "bank-0-natural.mp3",
+      "text": "Hi, it’s nice to meet you. Thank you for taking the time to speak with me.",
+      "variant": "natural",
+      "role": "coach",
+      "bytes": 26208,
+      "sha256": "9379a95c3aef1a48da92c90750a1877224ae153a65752d2da8f1aadb2a181883",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%"
+    },
+    {
+      "file": "bank-0-slow.mp3",
+      "text": "Hi, it’s nice to meet you. Thank you for taking the time to speak with me.",
+      "variant": "slow",
+      "role": "coach",
+      "bytes": 32256,
+      "sha256": "488517cc383b02e4289113202b0ab79da1005831c01b10a46e3705082556754e",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%"
+    },
+    {
+      "file": "bank-1-natural.mp3",
+      "text": "I want to improve my practical English, become more independent, and experience everyday life in the United States.",
+      "variant": "natural",
+      "role": "coach",
+      "bytes": 44784,
+      "sha256": "3c9d7f237979b5a0478f85c887becc193b0343be9eb39cce69897aa05d1c2579",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%"
+    },
+    {
+      "file": "bank-1-slow.mp3",
+      "text": "I want to improve my practical English, become more independent, and experience everyday life in the United States.",
+      "variant": "slow",
+      "role": "coach",
+      "bytes": 54864,
+      "sha256": "5a64812ef8c6f65a057e248899e4df942d35919daafa8f323de7533047eefa58",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%"
+    },
+    {
+      "file": "bank-10-natural.mp3",
+      "text": "Could you repeat that, please? Could you speak a little more slowly?",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 25488,
+      "sha256": "5ba9036d4a8fbdc3b3498bec3b270e742e282c22f8198c33775ec29a0e3b01e4"
+    },
+    {
+      "file": "bank-10-slow.mp3",
+      "text": "Could you repeat that, please? Could you speak a little more slowly?",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 31392,
+      "sha256": "4bce94bc3f850155875639229c9e937acdf50d464006530b6e9f17f2ec8a4cd1"
+    },
+    {
+      "file": "bank-11-natural.mp3",
+      "text": "Let me make sure I understood correctly. Do you mean…?",
+      "variant": "natural",
+      "role": "coach",
+      "bytes": 20160,
+      "sha256": "76631173067b7998d350084688427ba80699bc494a1a6398298762148f3f15bd",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%"
+    },
+    {
+      "file": "bank-11-slow.mp3",
+      "text": "Let me make sure I understood correctly. Do you mean…?",
+      "variant": "slow",
+      "role": "coach",
+      "bytes": 24336,
+      "sha256": "7f327fefac6899125cb81a7f3e40d88e2068f4b2b1ccea9af3359d045de8e1d7",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%"
+    },
+    {
+      "file": "bank-2-natural.mp3",
+      "text": "Communicating confidently in English will help me work with people from different backgrounds in the future.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 33264,
+      "sha256": "1fc4896be33a7dcc722f857438aef4443b91b7e4b8a1f45b5abed2d0539206c9"
+    },
+    {
+      "file": "bank-2-slow.mp3",
+      "text": "Communicating confidently in English will help me work with people from different backgrounds in the future.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 42192,
+      "sha256": "db62ff714f73c0230f06043e1261f39c8c5b89ed9e5a4ac6b4df1a5f1bb75f1b"
+    },
+    {
+      "file": "bank-3-natural.mp3",
+      "text": "I haven’t had a formal job yet, but I have taken responsibility in a university project.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 31536,
+      "sha256": "2fb1d4a5231a1ae549cb7cc51977a50bafd147e5f27ff4b135ee4cf6c38e105b"
+    },
+    {
+      "file": "bank-3-slow.mp3",
+      "text": "I haven’t had a formal job yet, but I have taken responsibility in a university project.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 39600,
+      "sha256": "f0352c1b8e087b6ee91fbc22c5b1c7bd37142dd7f2803a888750091ffe15a032"
+    },
+    {
+      "file": "bank-4-natural.mp3",
+      "text": "I have preferences, but I understand that flexibility is part of the program. I am willing to learn and take responsibility for the job I accept.",
+      "variant": "natural",
+      "role": "coach",
+      "bytes": 57744,
+      "sha256": "3dd7528389fb5bdbeaf9bfd67352ecc94597e23e7a2f7bf5b3ff80794653d47d",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%"
+    },
+    {
+      "file": "bank-4-slow.mp3",
+      "text": "I have preferences, but I understand that flexibility is part of the program. I am willing to learn and take responsibility for the job I accept.",
+      "variant": "slow",
+      "role": "coach",
+      "bytes": 72000,
+      "sha256": "9643c302b49b1f5be0c3057cff869e253e4b4007f5ff213c795f3f1f607eb0e8",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%"
+    },
+    {
+      "file": "bank-5-natural.mp3",
+      "text": "If I do not understand a customer, I will ask politely, repeat the key information, and confirm before taking action.",
+      "variant": "natural",
+      "role": "coach",
+      "bytes": 49536,
+      "sha256": "7382371e8e63b0c94461955a7f9a50a05b89b4ed973c099e15b74e989491c467",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%"
+    },
+    {
+      "file": "bank-5-slow.mp3",
+      "text": "If I do not understand a customer, I will ask politely, repeat the key information, and confirm before taking action.",
+      "variant": "slow",
+      "role": "coach",
+      "bytes": 57600,
+      "sha256": "cab8c8eb0658c122360a26e33b4b74e0acb5a2837626e3613fbc885ee30e2170",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%"
+    },
+    {
+      "file": "bank-6-natural.mp3",
+      "text": "I know there may be difficult moments, but I am ready to manage my time, ask for help when needed, and solve problems step by step.",
+      "variant": "natural",
+      "role": "coach",
+      "bytes": 52992,
+      "sha256": "61086ff5655912c2e5cfb94038e53f00b7c0f1bc8b2627bea9fe8a8c469f2737",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%"
+    },
+    {
+      "file": "bank-6-slow.mp3",
+      "text": "I know there may be difficult moments, but I am ready to manage my time, ask for help when needed, and solve problems step by step.",
+      "variant": "slow",
+      "role": "coach",
+      "bytes": 65232,
+      "sha256": "34e172f78cb5c99def059a3c6df65fdddf730418157fc523f1f3e9e122e6657f",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%"
+    },
+    {
+      "file": "bank-7-natural.mp3",
+      "text": "I want to learn about everyday life and work, and I would also be happy to share food and traditions from my own background.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 41328,
+      "sha256": "657971a703d23e7ce21cb7908a9e753a088ecf1ba1977650b3e00f7c3a31d394"
+    },
+    {
+      "file": "bank-7-slow.mp3",
+      "text": "I want to learn about everyday life and work, and I would also be happy to share food and traditions from my own background.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 52416,
+      "sha256": "c59a9796773d6ffcd6ecb8ca38267b082444e5e2494a53dd47eea7a63ac882e9"
+    },
+    {
+      "file": "bank-8-natural.mp3",
+      "text": "What does a successful student in this position usually do well?",
+      "variant": "natural",
+      "role": "coach",
+      "bytes": 22464,
+      "sha256": "4775040d13bd88dc7b443654883f189c58c4ae82a2d32a86b45576fec789cfff",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%"
+    },
+    {
+      "file": "bank-8-slow.mp3",
+      "text": "What does a successful student in this position usually do well?",
+      "variant": "slow",
+      "role": "coach",
+      "bytes": 30528,
+      "sha256": "35814f51679ca03786d830132324334028dc4267d7156ba188df9b0731a05ab6",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%"
+    },
+    {
+      "file": "bank-9-natural.mp3",
+      "text": "What kind of training will I receive during my first week?",
+      "variant": "natural",
+      "role": "coach",
+      "bytes": 19872,
+      "sha256": "c322fc632bc470458b3a24c274e31969aa619b8cf3531723af2ed658186f9b00",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%"
+    },
+    {
+      "file": "bank-9-slow.mp3",
+      "text": "What kind of training will I receive during my first week?",
+      "variant": "slow",
+      "role": "coach",
+      "bytes": 25056,
+      "sha256": "7f385e41e70a081dd1791d60ab91de8b983553b3d79281dc164d4b5c53a986d7",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%"
+    },
+    {
+      "file": "example-0-natural.mp3",
+      "text": "Hi, I’m Alex. Please call me Alex. It’s nice to meet you, and I’m looking forward to working with you.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 43200,
+      "sha256": "ae7355c33e35a3715e6c3f8c7cd1a1145f4804792fe7f863198f2e1fb71f6c3d"
+    },
+    {
+      "file": "example-0-slow.mp3",
+      "text": "Hi, I’m Alex. Please call me Alex. It’s nice to meet you, and I’m looking forward to working with you.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 51984,
+      "sha256": "d282dca1b9e903654d5ecdfc1a93ee14b386a3eeb312a5063decaf2c9ee6595f"
+    },
+    {
+      "file": "example-1-natural.mp3",
+      "text": "My last name is Cruz. That’s C-R-U-Z. Would you like me to spell it again?",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 32688,
+      "sha256": "673867641fbec4953756b415eddb3d9984fdd78f5b7bcd0e89e739acb1b87c09"
+    },
+    {
+      "file": "example-1-slow.mp3",
+      "text": "My last name is Cruz. That’s C-R-U-Z. Would you like me to spell it again?",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 40032,
+      "sha256": "07967be3d0cac0ce2998dea3a64b7c8b0ff9646d4608ae85ba3758d2614b8834"
+    },
+    {
+      "file": "example-10-natural.mp3",
+      "text": "I want to become more confident using English in everyday situations. I also want to experience working with people from different backgrounds, especially when we solve problems as a team.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 67968,
+      "sha256": "ccdf0f10aba48c94bc824bf6af3935a4abccf6cf634ee896cb31c18a422d1663"
+    },
+    {
+      "file": "example-10-slow.mp3",
+      "text": "I want to become more confident using English in everyday situations. I also want to experience working with people from different backgrounds, especially when we solve problems as a team.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 82800,
+      "sha256": "cad39a2056b6f30099af7cfc074fc442c9d0b0dd0a0d869cf6e7b1b98ea42847"
+    },
+    {
+      "file": "example-11-natural.mp3",
+      "text": "I hope to learn how people communicate at work and in everyday life. I would like to join local activities and ask questions, rather than only visit famous places.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 62640,
+      "sha256": "bcd2dc3806a5e386394eef2043451a8814745c882b4c3c03e4bc1b95171320dd"
+    },
+    {
+      "file": "example-11-slow.mp3",
+      "text": "I hope to learn how people communicate at work and in everyday life. I would like to join local activities and ask questions, rather than only visit famous places.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 76464,
+      "sha256": "86661c011b785af2325c5dcad83913a2f5b80941a35dbffca2aac22e6dd981db"
+    },
+    {
+      "file": "example-12-natural.mp3",
+      "text": "I would prefer a role where I can help customers and work with a team. I am patient when explaining things, and I am willing to learn other tasks that the job requires.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 61200,
+      "sha256": "04003c438f61874a3a92781f1be7fbe9a2f8615ff8c1c2782fa3852750067bd9"
+    },
+    {
+      "file": "example-12-slow.mp3",
+      "text": "I would prefer a role where I can help customers and work with a team. I am patient when explaining things, and I am willing to learn other tasks that the job requires.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 77616,
+      "sha256": "a18082a2ceddae70662a75ce42a04854944b15c0017e47a3c64ed1f89de85a98"
+    },
+    {
+      "file": "example-13-natural.mp3",
+      "text": "I could talk about a dish my family often makes and explain when we eat it. I would also ask my coworker about food or celebrations that are important to them.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 55872,
+      "sha256": "bfd6c77f188f6bf91c7e04ed15667d1409eba51644806ea770b8fdcd9534adf8"
+    },
+    {
+      "file": "example-13-slow.mp3",
+      "text": "I could talk about a dish my family often makes and explain when we eat it. I would also ask my coworker about food or celebrations that are important to them.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 67536,
+      "sha256": "60a9ef9ad6c09a0e2c7df4cefc23cbfb1f8bbf0ea8e398e873d711f28d9c57b2"
+    },
+    {
+      "file": "example-14-natural.mp3",
+      "text": "I would probably miss my family at first. I would keep a regular routine, arrange time to call them, and stay connected with people around me. If I struggled, I would ask for support.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 67104,
+      "sha256": "6f7fab87e10b265544fce3404c3188afcd5827339a81d3bfb81707f97209da90"
+    },
+    {
+      "file": "example-14-slow.mp3",
+      "text": "I would probably miss my family at first. I would keep a regular routine, arrange time to call them, and stay connected with people around me. If I struggled, I would ask for support.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 85248,
+      "sha256": "9589c397ac0c5ebd2241794d763322cbca93acce2983cbe65629faec0cc7f088"
+    },
+    {
+      "file": "example-15-natural.mp3",
+      "text": "In a class project, I was responsible for organizing our presentation. I checked the deadlines, asked everyone for their part, and helped the group finish on time.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 60480,
+      "sha256": "4f77d61eaeea7856608def7b3d04b402ee81e31ed78521dbf61c6a73e5ad12de"
+    },
+    {
+      "file": "example-15-slow.mp3",
+      "text": "In a class project, I was responsible for organizing our presentation. I checked the deadlines, asked everyone for their part, and helped the group finish on time.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 75168,
+      "sha256": "bbdb43dfcab57b5f4b7a1b3f8eca95bf7d14ba7e910f06c60acfc265a957cf9b"
+    },
+    {
+      "file": "example-16-natural.mp3",
+      "text": "First, I would check whether either task affects safety or a customer who is waiting. If the priority was still unclear, I would ask my supervisor and explain the two tasks briefly.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 68976,
+      "sha256": "a5a43c8b1ec479fabe6370e1278d9be8626cc174395aeda090a0f52315195430"
+    },
+    {
+      "file": "example-16-slow.mp3",
+      "text": "First, I would check whether either task affects safety or a customer who is waiting. If the priority was still unclear, I would ask my supervisor and explain the two tasks briefly.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 86544,
+      "sha256": "0d42417bcd5019ccc9b6ad4cc169dab4535eec698e121018aefdb8abe465717f"
+    },
+    {
+      "file": "example-17-natural.mp3",
+      "text": "I would acknowledge the mistake and let my supervisor know promptly. I would explain what happened, ask how to correct it, and make a note so I would be less likely to repeat it.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 63792,
+      "sha256": "3b4bc8285c90ced4d21f872b4a421aafed8d207ab16d4aa06294c8e336de6a2f"
+    },
+    {
+      "file": "example-17-slow.mp3",
+      "text": "I would acknowledge the mistake and let my supervisor know promptly. I would explain what happened, ask how to correct it, and make a note so I would be less likely to repeat it.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 77184,
+      "sha256": "7972e561b84752660ed72bf8aa8499873f08ab8a8f351e31ff3e0cc546d33a66"
+    },
+    {
+      "file": "example-18-natural.mp3",
+      "text": "I would ask for a demonstration and watch the steps carefully. Then I would repeat the main instructions back and try the task with guidance, rather than pretend I already knew how to do it.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 70560,
+      "sha256": "ed0ee2bce186113b3795f7c5b8b943983cbc1fe922d6405ed4d6e6be91340dde"
+    },
+    {
+      "file": "example-18-slow.mp3",
+      "text": "I would ask for a demonstration and watch the steps carefully. Then I would repeat the main instructions back and try the task with guidance, rather than pretend I already knew how to do it.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 86832,
+      "sha256": "250b4559bf476e85ab5360816c51ab471db7782b659b7eb1e596e10a52254a86"
+    },
+    {
+      "file": "example-19-natural.mp3",
+      "text": "Could you tell me what training I would receive in my first week? I would also like to know what a successful team member in this role usually does well.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 48096,
+      "sha256": "0c36113e0b2be8953a62cca837cb1f26666974d0c5fa9bbcf680b40bcd33eade"
+    },
+    {
+      "file": "example-19-slow.mp3",
+      "text": "Could you tell me what training I would receive in my first week? I would also like to know what a successful team member in this role usually does well.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 61488,
+      "sha256": "d6311d7fd6f589f053426418bb0f01cd1c9893d80f9a2878965c5445a12cdd61"
+    },
+    {
+      "file": "example-2-natural.mp3",
+      "text": "Just to confirm, my shift starts at nine fifteen tomorrow. Do you mean nine fifteen in the morning?",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 37296,
+      "sha256": "20b3c38fc036258d14129fec74f9d62a251f7b17a24b619dd4ad5760a896324f"
+    },
+    {
+      "file": "example-2-slow.mp3",
+      "text": "Just to confirm, my shift starts at nine fifteen tomorrow. Do you mean nine fifteen in the morning?",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 45792,
+      "sha256": "34b22ec358dd1778deaefd3970af26d9cf58abf04ed449e7d0f759f31a9a1e6e"
+    },
+    {
+      "file": "example-20-natural.mp3",
+      "text": "Certainly. That’s a small coffee with oat milk, correct? Would you like anything else with your order?",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 38304,
+      "sha256": "4484ad2308e35c1d96687d5d8fba442faaa2a2d0eb44bf43a05c7902d7f0a2ee"
+    },
+    {
+      "file": "example-20-slow.mp3",
+      "text": "Certainly. That’s a small coffee with oat milk, correct? Would you like anything else with your order?",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 47808,
+      "sha256": "08639674d477ead08d3e7fd5829397c7d05ef4134d8a0e149262df7e7d1c5ee5"
+    },
+    {
+      "file": "example-21-natural.mp3",
+      "text": "I’m not sure, so I’ll check the ingredient information with the kitchen. Please wait while I confirm it. I do not want to give you incorrect information.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 53568,
+      "sha256": "236600761d74f936c9196423140eaf191c34b2d48caceee8698c8d3b800c3a80"
+    },
+    {
+      "file": "example-21-slow.mp3",
+      "text": "I’m not sure, so I’ll check the ingredient information with the kitchen. Please wait while I confirm it. I do not want to give you incorrect information.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 68688,
+      "sha256": "3249e74047fb2c02bd1cecdd23f23893e57520111b06be2103f2a2c190f5e859"
+    },
+    {
+      "file": "example-22-natural.mp3",
+      "text": "I’m sorry about the mix-up. Let me check your order and arrange the correct drink. Thank you for letting me know.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 40896,
+      "sha256": "3e49e13805e308865ee48e47d40a9bef5caa59c439a8b191b4f5d835f960ffa4"
+    },
+    {
+      "file": "example-22-slow.mp3",
+      "text": "I’m sorry about the mix-up. Let me check your order and arrange the correct drink. Thank you for letting me know.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 50688,
+      "sha256": "3819a1c228b744ec6ea8e78e9c6b05cc945cf7a8cf8506a3b127f374ee619af8"
+    },
+    {
+      "file": "example-23-natural.mp3",
+      "text": "The current estimate is about ten minutes, but it may change. I can check with the host for an update if you would like.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 41616,
+      "sha256": "6c673ed151b2f498ff33e80341ff1852192c8e1161eb58a9185e4a6deb09212e"
+    },
+    {
+      "file": "example-23-slow.mp3",
+      "text": "The current estimate is about ten minutes, but it may change. I can check with the host for an update if you would like.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 53136,
+      "sha256": "b5bde268aaa3f6f7b59ddbeb514a303279e30cda786211f3819f5c57db20fb79"
+    },
+    {
+      "file": "example-24-natural.mp3",
+      "text": "I’m sorry you have been waiting. I’ll check with the team now and come back with an update. Thank you for your patience.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 41760,
+      "sha256": "8f17320b962d9dc9ea0aebddd161477a912b5358e88130132b4f8a31aa3514c3"
+    },
+    {
+      "file": "example-24-slow.mp3",
+      "text": "I’m sorry you have been waiting. I’ll check with the team now and come back with an update. Thank you for your patience.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 54288,
+      "sha256": "e6c2bbe8b3bde817a00963669d5603ab6cd636cc3024bd266003e855ead355e9"
+    },
+    {
+      "file": "example-25-natural.mp3",
+      "text": "The front desk closes at ten p.m., which is ten in the evening. Is there anything else I can help you with?",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 40032,
+      "sha256": "f25798de392b528d5328a1d89d9fd7241e3c190cef3610705af67ccb53f50fd8"
+    },
+    {
+      "file": "example-25-slow.mp3",
+      "text": "The front desk closes at ten p.m., which is ten in the evening. Is there anything else I can help you with?",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 50112,
+      "sha256": "c22b974999b8d08eb6fc2886abbea02c3c98bdc2f3ca0b6418a9f37aae28dfd0"
+    },
+    {
+      "file": "example-26-natural.mp3",
+      "text": "Of course, Morgan. Please hold for a moment. I’ll connect you to the manager.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 33840,
+      "sha256": "4effedbeffba3435d0140736ef43cabeccf1b761d5cd58cc4b6c8415546ddd1e"
+    },
+    {
+      "file": "example-26-slow.mp3",
+      "text": "Of course, Morgan. Please hold for a moment. I’ll connect you to the manager.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 40464,
+      "sha256": "f4976230bd4ba468d0177a11dd3b636efc1e0986e9099e0ce2d54886d6ac387b"
+    },
+    {
+      "file": "example-27-natural.mp3",
+      "text": "Could you spell your last name for me, please? Then I can check the booking details.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 30096,
+      "sha256": "33b6391f3291c915d306d7f3990d8782facaa6669ff304078f5bb42f33f9e422"
+    },
+    {
+      "file": "example-27-slow.mp3",
+      "text": "Could you spell your last name for me, please? Then I can check the booking details.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 39456,
+      "sha256": "f1d76a3f27099cfbb619d9cf77d46dfe4a9c5ae8c96c335a31f60946c5e62a8c"
+    },
+    {
+      "file": "example-28-natural.mp3",
+      "text": "Just to confirm, you would like to check out at one p.m. tomorrow. Let me check the late-checkout policy before I confirm whether that is possible.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 51984,
+      "sha256": "c7f848a092d83030ed9330707a803b996799214f54f56f54eec8ad7638e8173d"
+    },
+    {
+      "file": "example-28-slow.mp3",
+      "text": "Just to confirm, you would like to check out at one p.m. tomorrow. Let me check the late-checkout policy before I confirm whether that is possible.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 65232,
+      "sha256": "c38c35844d104ed37783eb08ec61ab58faed960a08c6c27ac85f666885e0a00d"
+    },
+    {
+      "file": "example-29-natural.mp3",
+      "text": "Certainly. That’s two more towels for room two fourteen. I’ll pass your request to housekeeping.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 37296,
+      "sha256": "1c437510c319c8397adb8f2d7df4cd15df1171697c942078ca5ea80b1e71c1eb"
+    },
+    {
+      "file": "example-29-slow.mp3",
+      "text": "Certainly. That’s two more towels for room two fourteen. I’ll pass your request to housekeeping.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 47232,
+      "sha256": "9e451e218f61675b03d4d588af15c9dfd4aa7c6f07322d1341c17e8b474b46a5"
+    },
+    {
+      "file": "example-3-natural.mp3",
+      "text": "I understand that I should put the cups beside the register. Could you repeat what I should do with the empty tray, please?",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 39888,
+      "sha256": "3f98070d427e16fd024194add7f6a11351e7a923191e61682a5ed7a285f42f11"
+    },
+    {
+      "file": "example-3-slow.mp3",
+      "text": "I understand that I should put the cups beside the register. Could you repeat what I should do with the empty tray, please?",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 48816,
+      "sha256": "a21a7574b28eccab5a7db6131c02371500dd395f7d730c9078e6ebf40e6ef3cf"
+    },
+    {
+      "file": "example-30-natural.mp3",
+      "text": "Just to make sure, I should restock the shelf before taking my break. Where can I find the extra supplies?",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 39888,
+      "sha256": "e2c2bddae7e09ff3759379477e58d5f0b92284dc8cf7db33bb3b96aeede28810"
+    },
+    {
+      "file": "example-30-slow.mp3",
+      "text": "Just to make sure, I should restock the shelf before taking my break. Where can I find the extra supplies?",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 47232,
+      "sha256": "d3bd2f4bae03eb5bcb832d3bfe7e784cc3a95d6672aa65a5f66a1169bf96c423"
+    },
+    {
+      "file": "example-31-natural.mp3",
+      "text": "Let me check my schedule first. What time does the shift start and finish? I’ll also check the shift-change process with our supervisor before confirming.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 57744,
+      "sha256": "ff1fcb39397da6ad7afe01c61e32c78ce3292b3e995fe0a084e1fbd0b1ebb04f"
+    },
+    {
+      "file": "example-31-slow.mp3",
+      "text": "Let me check my schedule first. What time does the shift start and finish? I’ll also check the shift-change process with our supervisor before confirming.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 72000,
+      "sha256": "55ea022691de6527d45ce075591f08b588b5e20448c6632f741bad6410b52bfe"
+    },
+    {
+      "file": "example-32-natural.mp3",
+      "text": "I haven’t been trained on this machine yet either. Let’s ask our supervisor to show us the correct procedure before we use it.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 44640,
+      "sha256": "1f266a72080d3223a27bdcb249fc0eb28ab20d35ed76beac1cbf04fa792f13e8"
+    },
+    {
+      "file": "example-32-slow.mp3",
+      "text": "I haven’t been trained on this machine yet either. Let’s ask our supervisor to show us the correct procedure before we use it.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 53856,
+      "sha256": "23c63f90ed1305d517dad333434b5753da6120b3987a764c118b6e1420e1203e"
+    },
+    {
+      "file": "example-33-natural.mp3",
+      "text": "Thanks for asking. I’m finding the new instructions a little difficult to follow. Could you help me check the main steps after this shift?",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 48384,
+      "sha256": "045974fc9bf4561737576fbbd7e611e6f77e722a37105224a740ff9801c2e07e"
+    },
+    {
+      "file": "example-33-slow.mp3",
+      "text": "Thanks for asking. I’m finding the new instructions a little difficult to follow. Could you help me check the main steps after this shift?",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 59472,
+      "sha256": "9262444ada75a7cae5bd62a4b94d62d73aca11a7dc214a0740f1f96f8313adb2"
+    },
+    {
+      "file": "example-34-natural.mp3",
+      "text": "Hi, I wanted to let you know that my bus is delayed. I may be late for my shift. I’m checking another option now, and I’ll update you as soon as I have a clearer arrival time.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 61056,
+      "sha256": "49e6ec39320663d564f37bf69e61e04b3214b991f51b3dffeb38b12c8012f4f3"
+    },
+    {
+      "file": "example-34-slow.mp3",
+      "text": "Hi, I wanted to let you know that my bus is delayed. I may be late for my shift. I’m checking another option now, and I’ll update you as soon as I have a clearer arrival time.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 77184,
+      "sha256": "c57e0a96c604b1d88292d607b7fb72f205d5f9a102b94c3141937cdb9532700c"
+    },
+    {
+      "file": "example-35-natural.mp3",
+      "text": "I’m Sam, a university student studying business. I enjoy working with people and learning how a team solves practical problems. I’m looking forward to using English in real situations.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 71424,
+      "sha256": "c3f909a5738c8e8bf35d6142afc58f607d4bfd3be808700ba8747d2ca072c562"
+    },
+    {
+      "file": "example-35-slow.mp3",
+      "text": "I’m Sam, a university student studying business. I enjoy working with people and learning how a team solves practical problems. I’m looking forward to using English in real situations.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 90288,
+      "sha256": "281afb536bef51a8ad5f17a473b26289d3b3af033bb1e7b45b3dce94409ea2d1"
+    },
+    {
+      "file": "example-36-natural.mp3",
+      "text": "My primary goal is to communicate more confidently in English. I want to learn how to understand questions, ask for clarification, and help people during everyday work, not only in a classroom.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 74880,
+      "sha256": "5412ee71f1c0f038f06cac60b0649d5d2d92c1f105261be0f6d861e689ee45ea"
+    },
+    {
+      "file": "example-36-slow.mp3",
+      "text": "My primary goal is to communicate more confidently in English. I want to learn how to understand questions, ask for clarification, and help people during everyday work, not only in a classroom.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 93168,
+      "sha256": "467f6964e45676786aa09cb80940045cb190b259b6665697bc4ab75a077d14b2"
+    },
+    {
+      "file": "example-37-natural.mp3",
+      "text": "I have not had a formal job yet, but I helped organize a student event. I was responsible for checking the schedule and helping participants find the right room. It taught me to give clear instructions.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 68688,
+      "sha256": "754a87bd6984ffe8d187fd3adbe58f4c02e8258f3fe0a3b2fe475ee231fc085e"
+    },
+    {
+      "file": "example-37-slow.mp3",
+      "text": "I have not had a formal job yet, but I helped organize a student event. I was responsible for checking the schedule and helping participants find the right room. It taught me to give clear instructions.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 87120,
+      "sha256": "a252ced0e1431ae179460e00b34843aa4b8ce3a9720b2ddb35bbddf4ab12eb74"
+    },
+    {
+      "file": "example-38-natural.mp3",
+      "text": "I would stay flexible and ask about the role, training, and responsibilities. If it was suitable, I would make an effort to learn the work and do it responsibly, even if it was not my first choice.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 73872,
+      "sha256": "ba4874c6fabd618dffc99ec688d11a5004da24a9cfaa6ccc01eb22df73a60ee0"
+    },
+    {
+      "file": "example-38-slow.mp3",
+      "text": "I would stay flexible and ask about the role, training, and responsibilities. If it was suitable, I would make an effort to learn the work and do it responsibly, even if it was not my first choice.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 88704,
+      "sha256": "1042b592f8eef18f51ee846499419261f5529f2846dc06b8a174c06b72da273a"
+    },
+    {
+      "file": "example-39-natural.mp3",
+      "text": "Of course. Please hold on for a moment. I’ll transfer your call to the front desk manager.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 37296,
+      "sha256": "01260e9cca44da1a4a222e780e1cf124b71042cf5c889d0465e4690bfb145055"
+    },
+    {
+      "file": "example-39-slow.mp3",
+      "text": "Of course. Please hold on for a moment. I’ll transfer your call to the front desk manager.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 47088,
+      "sha256": "982d38aad6d0d670081621301342c6ecd9c59b2e176f71bd83029e64e353e19d"
+    },
+    {
+      "file": "example-4-natural.mp3",
+      "text": "Yes, that’s right. I’m available on Tuesday, but I’m not available on Thursday. Thank you for checking.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 44928,
+      "sha256": "d9d26c03c2eca8d2ce763aa7907849c55fc2ef97dc79e08d5661052a5d50f679"
+    },
+    {
+      "file": "example-4-slow.mp3",
+      "text": "Yes, that’s right. I’m available on Tuesday, but I’m not available on Thursday. Thank you for checking.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 54288,
+      "sha256": "c6f015ba3204c5e57d6e380306e7bf0d8991bb3ba7893ce99b0000daa57f567a"
+    },
+    {
+      "file": "example-5-natural.mp3",
+      "text": "I’m Riley, and I’m a university student studying environmental science. I enjoy projects where we collect information and work together to solve a practical problem.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 59328,
+      "sha256": "74024f65658ddf4c1f9b5302bc791bf74218060b84d375e8ae148fc9640ed6a7"
+    },
+    {
+      "file": "example-5-slow.mp3",
+      "text": "I’m Riley, and I’m a university student studying environmental science. I enjoy projects where we collect information and work together to solve a practical problem.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 75744,
+      "sha256": "ea0f581628acf39cdfddf4b967a5304006cc848481d399b851ab5864d19c2c4a"
+    },
+    {
+      "file": "example-6-natural.mp3",
+      "text": "I enjoy group projects because I can learn from other people. In one class, our team compared different solutions and presented the one we thought would work best.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 62496,
+      "sha256": "e2a14b77fcaee6be9a53f37238eef30c549f33f083413cc5e6f072e61d02a91f"
+    },
+    {
+      "file": "example-6-slow.mp3",
+      "text": "I enjoy group projects because I can learn from other people. In one class, our team compared different solutions and presented the one we thought would work best.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 78480,
+      "sha256": "9a3d51f860e38535605d703856b293fff0b19428b62cf52ebe24dc0ebaacc923"
+    },
+    {
+      "file": "example-7-natural.mp3",
+      "text": "Usually, I attend classes in the morning. After lunch, I work on assignments or meet my project team. In the evening, I exercise and prepare for the next day.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 60336,
+      "sha256": "59abe1081fac5937663fef9590dd6fca1a9d18e5983f49564352b889a5a5b901"
+    },
+    {
+      "file": "example-7-slow.mp3",
+      "text": "Usually, I attend classes in the morning. After lunch, I work on assignments or meet my project team. In the evening, I exercise and prepare for the next day.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 76464,
+      "sha256": "31492639a045a2c5736ad5c32a1147f84af2e8c2c28580c63b59a59d8ab9fa00"
+    },
+    {
+      "file": "example-8-natural.mp3",
+      "text": "I enjoy walking outdoors and taking photographs. It helps me relax after studying, and it gives me a reason to explore places I have not visited before.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 58752,
+      "sha256": "d52be2ee1d659ceeacc6d83172dd22c2b5d9746d48d613ff7ec3166fda74bb09"
+    },
+    {
+      "file": "example-8-slow.mp3",
+      "text": "I enjoy walking outdoors and taking photographs. It helps me relax after studying, and it gives me a reason to explore places I have not visited before.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 76608,
+      "sha256": "b839d1032a32046a3bd74c37091e4780b2ac271fbf86a39d28b90c66474fb604"
+    },
+    {
+      "file": "example-9-natural.mp3",
+      "text": "At first, giving a short presentation was difficult for me. I practiced with a friend and recorded myself. After a few attempts, I could explain my main idea more clearly.",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 68544,
+      "sha256": "64e87f00cb19fbd49f0237cbe733329b85eec10b94a1343fa18e169dc6c3ffdf"
+    },
+    {
+      "file": "example-9-slow.mp3",
+      "text": "At first, giving a short presentation was difficult for me. I practiced with a friend and recorded myself. After a few attempts, I could explain my main idea more clearly.",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 88560,
+      "sha256": "c3d20f91d51044a3744cf44190a87374988a44f1cd4ef10393eac8b2bd8dc03c"
+    },
+    {
+      "file": "follow-0-natural.mp3",
+      "text": "Is there a shorter name you prefer?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 11088,
+      "sha256": "631ea8f68cba974b02d4001e0550007a06845ec0eee645c4980e07e8bdb860fc"
+    },
+    {
+      "file": "follow-0-slow.mp3",
+      "text": "Is there a shorter name you prefer?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 13680,
+      "sha256": "3132797661bab5f1fd31d2087e3ecf96d36e7eafb798eda294282c426501a2c7"
+    },
+    {
+      "file": "follow-1-natural.mp3",
+      "text": "Could you repeat the last two letters?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 13680,
+      "sha256": "a750c6dd88ce3d21e19c46b11c5d6d0a22bb89e75a952bd571f9d0860d501238"
+    },
+    {
+      "file": "follow-1-slow.mp3",
+      "text": "Could you repeat the last two letters?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 17856,
+      "sha256": "18579dd18e8ecff9ab4d57f816c93d00912a6b8b4e7e47a48cf07c29ff5e2ec3"
+    },
+    {
+      "file": "follow-10-natural.mp3",
+      "text": "Which goal would matter most if the summer was challenging?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 22752,
+      "sha256": "667ebffdb813d0baa551e131c13d8079960b0ebf1b1a7e632ca5c6d527adca25"
+    },
+    {
+      "file": "follow-10-slow.mp3",
+      "text": "Which goal would matter most if the summer was challenging?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 27648,
+      "sha256": "883d6c43daf425d8d77d5785edb28046d02ecaf14cc5c8316030e25d1d1acee6"
+    },
+    {
+      "file": "follow-11-natural.mp3",
+      "text": "How could you learn that from a coworker?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 12528,
+      "sha256": "e276b83657e20b21849f258502ca3d893d8e5defe00ecf46e941a19180953f57"
+    },
+    {
+      "file": "follow-11-slow.mp3",
+      "text": "How could you learn that from a coworker?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 16416,
+      "sha256": "6fc52700f22121567ca5a08f214ce9de77415035fe850a1dd0c70e4b2a0e5b8c"
+    },
+    {
+      "file": "follow-12-natural.mp3",
+      "text": "What if the available role was different from your preference?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 21744,
+      "sha256": "ab96bf0c22ce95be4872990284e7baf6b5466f575abef12b60d5504370b6c33e"
+    },
+    {
+      "file": "follow-12-slow.mp3",
+      "text": "What if the available role was different from your preference?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 26208,
+      "sha256": "42b24ce64b2b10d97a1164cd711dcc7cf3e2beb3926bb9bb53861822a13cf917"
+    },
+    {
+      "file": "follow-13-natural.mp3",
+      "text": "What would you ask if they had never heard of that tradition?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 18432,
+      "sha256": "cd8a278ca8718f126daa1ffe169d8c1a3a192d60fe5e6561ea1e02b7fc996773"
+    },
+    {
+      "file": "follow-13-slow.mp3",
+      "text": "What would you ask if they had never heard of that tradition?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 22464,
+      "sha256": "c1a1f1b1e0088625ae385a1d2f26f8d2ab4786dc376523c7f26b75e205890a80"
+    },
+    {
+      "file": "follow-14-natural.mp3",
+      "text": "What would you do if calling home made you feel more upset?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 21456,
+      "sha256": "95e20204eaae13ba738fe46fa9d7a5e6f420ef35b80cc69708efaaf9c3be4fa5"
+    },
+    {
+      "file": "follow-14-slow.mp3",
+      "text": "What would you do if calling home made you feel more upset?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 26496,
+      "sha256": "7840f9a8a3a893ed84835b1a386b2e52c9a3429c7a8f3811cd7615efccdbc444"
+    },
+    {
+      "file": "follow-15-natural.mp3",
+      "text": "What did you do when someone was late with their part?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 17280,
+      "sha256": "fa218f36dbd8292925816425b2fc888128689ca0fbb38e182e474af0d5b847db"
+    },
+    {
+      "file": "follow-15-slow.mp3",
+      "text": "What did you do when someone was late with their part?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 21168,
+      "sha256": "bb4fc338faed06a2d1b8406cb70005c3c812928e26c933d6c383d5227231b170"
+    },
+    {
+      "file": "follow-16-natural.mp3",
+      "text": "What would you say to the person whose request must wait?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 24336,
+      "sha256": "13c1715e8c24b2b8f7c28199bcab362248f87e958e8cf6d72b19f6f1f505cec6"
+    },
+    {
+      "file": "follow-16-slow.mp3",
+      "text": "What would you say to the person whose request must wait?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 30672,
+      "sha256": "f05e770a022f10b4aaf0b439ea4c4c88c9e5396d9a4c8e6007581f4d9ed5b783"
+    },
+    {
+      "file": "follow-17-natural.mp3",
+      "text": "How would you describe the mistake without blaming a coworker?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 22608,
+      "sha256": "ac7995286ab5ad96d05c7df38ef584e72301c33de927643fa9906b521ff53f3f"
+    },
+    {
+      "file": "follow-17-slow.mp3",
+      "text": "How would you describe the mistake without blaming a coworker?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 26784,
+      "sha256": "2a9af9e72b8d35ed8a6a14320d4543c4cbb5b7dde8b060d609ea4ecc05c70055"
+    },
+    {
+      "file": "follow-18-natural.mp3",
+      "text": "What would you do if the instruction was too fast?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 17280,
+      "sha256": "5212fee87ca5f45dcc2065fe193970b1f3b202a0e4c5bf445ec5d2e3185423f5"
+    },
+    {
+      "file": "follow-18-slow.mp3",
+      "text": "What would you do if the instruction was too fast?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 21456,
+      "sha256": "51b09722578db0884e35c85193c605352ea0dc61692842077e7de466be3f18b2"
+    },
+    {
+      "file": "follow-19-natural.mp3",
+      "text": "We pair new staff with a trainer. What would you want to learn first?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 23760,
+      "sha256": "609c563f61e55f90bdd8deaf98465c6a4c8c3e6b63b93466d913bd3e1f067269"
+    },
+    {
+      "file": "follow-19-slow.mp3",
+      "text": "We pair new staff with a trainer. What would you want to learn first?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 30384,
+      "sha256": "396e4311700a42f4706c76f5784241c9236cbc4d21108646151198fdfc2dbec3"
+    },
+    {
+      "file": "follow-2-natural.mp3",
+      "text": "Yes, in the morning. Where will you check in?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 15120,
+      "sha256": "301cf7cda16ffbe4f7eba43942f91c0274685e7cd0920f421a424b1f9e477d87"
+    },
+    {
+      "file": "follow-2-slow.mp3",
+      "text": "Yes, in the morning. Where will you check in?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 21024,
+      "sha256": "3bb16b455af284267b07a59bb919c1df8904f80242a27fe0ab7b23b80dbebb1c"
+    },
+    {
+      "file": "follow-20-natural.mp3",
+      "text": "Actually, could you make that a large one?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 13968,
+      "sha256": "b0a1a9970c3fa4a805cb566bcf4df3c9b1b41703dacb48229f7ed5bc8c253fcc"
+    },
+    {
+      "file": "follow-20-slow.mp3",
+      "text": "Actually, could you make that a large one?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 19440,
+      "sha256": "24d0a3cce8005415d8c3ecd2627fc02c5387a62e6b839c0548dec7864efcc5f6"
+    },
+    {
+      "file": "follow-21-natural.mp3",
+      "text": "It is for someone with an allergy. Who can confirm that for me?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 20880,
+      "sha256": "88a5bf0ca39fd1e726cc3977a4f851c91cea6f6c628679369c571e34716d50ce"
+    },
+    {
+      "file": "follow-21-slow.mp3",
+      "text": "It is for someone with an allergy. Who can confirm that for me?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 25056,
+      "sha256": "6604b9fda3ddbfc71e73bd9282a9a8688e16f987f9bf1c29623cf17cb863b904"
+    },
+    {
+      "file": "follow-22-natural.mp3",
+      "text": "How long will the replacement take?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 12528,
+      "sha256": "002429c765655030589361b92ce5862d5734fefd2625925fa3eeb69e99deff6c"
+    },
+    {
+      "file": "follow-22-slow.mp3",
+      "text": "How long will the replacement take?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 14976,
+      "sha256": "271d42f886755f2d53183455985f401b0c80fc0a66d6b685aadfc31a365fcd7a"
+    },
+    {
+      "file": "follow-23-natural.mp3",
+      "text": "Could we wait somewhere while you check?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 13248,
+      "sha256": "459822f52ef8c82d4ea2cca9a9003fb267c1ce05cfaa1e5d994fa1d70849fb09"
+    },
+    {
+      "file": "follow-23-slow.mp3",
+      "text": "Could we wait somewhere while you check?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 16704,
+      "sha256": "cc3913fd3e4bb635093975c22b361277247378ca5b57eab31f8e0f636e48bb1d"
+    },
+    {
+      "file": "follow-24-natural.mp3",
+      "text": "Please let me know even if it will take longer.",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 14400,
+      "sha256": "e7f85acf16ac33b67cc55c3f8907d0176f3320271097d9aaa5129a1ef4075e9b"
+    },
+    {
+      "file": "follow-24-slow.mp3",
+      "text": "Please let me know even if it will take longer.",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 17712,
+      "sha256": "b35896310f3f4743afc8aef2cb7b842123d48e69f3fb8c6d75b2fb676f20cfc1"
+    },
+    {
+      "file": "follow-25-natural.mp3",
+      "text": "If I arrive at nine thirty, will someone still be there?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 21312,
+      "sha256": "5c024e36bc3aeb74dc0fe41b138d84c40f6a29bb427968844f7f81ffbbc2d92b"
+    },
+    {
+      "file": "follow-25-slow.mp3",
+      "text": "If I arrive at nine thirty, will someone still be there?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 24192,
+      "sha256": "734a1f71da2ebe4a39fc8147ac984f1a454b289930d18cbad3ec50de780704e3"
+    },
+    {
+      "file": "follow-26-natural.mp3",
+      "text": "The manager is unavailable. What could you offer instead?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 23184,
+      "sha256": "a412b1eacc56a3f71e7647b73ff84bec8ad15311bcb39ea56822bb310b874e6c"
+    },
+    {
+      "file": "follow-26-slow.mp3",
+      "text": "The manager is unavailable. What could you offer instead?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 29952,
+      "sha256": "ec46c9732cadbb3f34fe437f59512f85fb3c4a4c1eabba7e361a8b65a66e7280"
+    },
+    {
+      "file": "follow-27-natural.mp3",
+      "text": "It is R-I-V-E-R-A. Can you repeat that back?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 20160,
+      "sha256": "6359fe144950ec22899ed87ec95a4698ddbf6bc933a3202e1334e1cadc83d374"
+    },
+    {
+      "file": "follow-27-slow.mp3",
+      "text": "It is R-I-V-E-R-A. Can you repeat that back?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 25056,
+      "sha256": "741ce97e8f50545773f401418f8cc533b06b6d96e4e26382822dae9eafdfe1a5"
+    },
+    {
+      "file": "follow-28-natural.mp3",
+      "text": "Could you let me know whether there is an extra charge?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 16992,
+      "sha256": "48d94a93797184b91cb65767b9da4f47e91ead3ba77673fdc34dddf3a6ea3517"
+    },
+    {
+      "file": "follow-28-slow.mp3",
+      "text": "Could you let me know whether there is an extra charge?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 20880,
+      "sha256": "20322100e43b6ac9e06ef04db8a2f3c007565ef1c7361b40347d9586b610a835"
+    },
+    {
+      "file": "follow-29-natural.mp3",
+      "text": "Could you also ask whether they can bring them soon?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 14832,
+      "sha256": "e03323fed73a00285a252e2fd6dd8c78ec14a0eb405e6ed684cd5b1f26f47ebd"
+    },
+    {
+      "file": "follow-29-slow.mp3",
+      "text": "Could you also ask whether they can bring them soon?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 19584,
+      "sha256": "1e5f89f7833f682e14d872f652a2413f018c15571b3a625364c29c5cbf902b0d"
+    },
+    {
+      "file": "follow-3-natural.mp3",
+      "text": "Bring the tray to the kitchen. Can you tell me both steps now?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 23328,
+      "sha256": "03d094693e5554c7aa25a96399bfb10a212769e402ef192a56272cb7fa84f86a"
+    },
+    {
+      "file": "follow-3-slow.mp3",
+      "text": "Bring the tray to the kitchen. Can you tell me both steps now?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 29952,
+      "sha256": "1ad85f7bc4a4a393fa9754a5aa2c07ec60f0d9c4c26559ad99737a80d8d29660"
+    },
+    {
+      "file": "follow-30-natural.mp3",
+      "text": "The supplies are in the storage room. Do you need help finding it?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 20016,
+      "sha256": "7a6f7ae3c03120a2c37f9e6cd05321502500b2a96b131ec3b508f3baef60ae2b"
+    },
+    {
+      "file": "follow-30-slow.mp3",
+      "text": "The supplies are in the storage room. Do you need help finding it?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 24480,
+      "sha256": "92eb9809aa8feca4425b5715b871a39792c7ab3cc0ae82bd4810342467726e36"
+    },
+    {
+      "file": "follow-31-natural.mp3",
+      "text": "It is from four until nine. When can you let me know?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 18432,
+      "sha256": "99c141d318f8fd4489e4ec1cf73819e90a214965cb55ef3a4c4da1bd3f470a71"
+    },
+    {
+      "file": "follow-31-slow.mp3",
+      "text": "It is from four until nine. When can you let me know?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 23616,
+      "sha256": "fdd34ea477e78f626e0e426d3063552278b64a113a9e23009981cf90dc9d2c00"
+    },
+    {
+      "file": "follow-32-natural.mp3",
+      "text": "What would you say if someone told you to just try it?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 15408,
+      "sha256": "062818f6e3047729b7d3d4308924b5ab544969c5170d801e19e27bc8b7d04b07"
+    },
+    {
+      "file": "follow-32-slow.mp3",
+      "text": "What would you say if someone told you to just try it?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 19008,
+      "sha256": "47c69542254af008084024d8a34e523bca9eb7d3ab43976295e6d5f95350d4b1"
+    },
+    {
+      "file": "follow-33-natural.mp3",
+      "text": "Which instruction would you like to go over first?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 17424,
+      "sha256": "949fe3984ebd7c28347e454499ecd05fab40a215d7f57180c4ee2b8fdac8c522"
+    },
+    {
+      "file": "follow-33-slow.mp3",
+      "text": "Which instruction would you like to go over first?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 19872,
+      "sha256": "e1d46cee1b531b963e3ec76367b66d0675f22f603c36b583640f34af888375c2"
+    },
+    {
+      "file": "follow-34-natural.mp3",
+      "text": "If you cannot give an arrival time yet, what can you say?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 20880,
+      "sha256": "9323b3e8eef956248ff381526f1c241368688e0eda99957d4052886f5a804141"
+    },
+    {
+      "file": "follow-34-slow.mp3",
+      "text": "If you cannot give an arrival time yet, what can you say?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 25920,
+      "sha256": "2b7fcc55c92f4fd7d6f4fc87b023f52440e652a73a85358ca273e10735f06332"
+    },
+    {
+      "file": "follow-35-natural.mp3",
+      "text": "Which part of your studies would help you in a summer job?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 17136,
+      "sha256": "e296f6b31383f7d48babfa9921b83f6c9147fec59c0b998e02b46f9ed85dd404"
+    },
+    {
+      "file": "follow-35-slow.mp3",
+      "text": "Which part of your studies would help you in a summer job?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 21456,
+      "sha256": "8d04909336a3f2fd4a3fc1ec27c739499bc05b8d696bcae3150bcb12065c30a6"
+    },
+    {
+      "file": "follow-36-natural.mp3",
+      "text": "How will you notice that you have made progress?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 15696,
+      "sha256": "7a1222a8a85653a8feb8613953c9c47e45e7b67045bc3b37a6aef6fae45f575c"
+    },
+    {
+      "file": "follow-36-slow.mp3",
+      "text": "How will you notice that you have made progress?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 20592,
+      "sha256": "dda7e1ff0dbcea4c19a0b82ae05770564f8316a76d8067946bf622671f1a1fce"
+    },
+    {
+      "file": "follow-37-natural.mp3",
+      "text": "What was difficult about that responsibility?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 16704,
+      "sha256": "8e8d3746ea97701dadb4058c096ee3a0607ef1f9eea95a9973b17c3dd27efb43"
+    },
+    {
+      "file": "follow-37-slow.mp3",
+      "text": "What was difficult about that responsibility?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 20880,
+      "sha256": "0962ca932fa617a2a28514f484ad55d0d3d567869a6b9356f62b8281be8d448e"
+    },
+    {
+      "file": "follow-38-natural.mp3",
+      "text": "What information would you want before deciding?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 15696,
+      "sha256": "19977e69f4efab09951b946ce1a1c80e6e0a6b53e892eb167cc04e4017fbd1ca"
+    },
+    {
+      "file": "follow-38-slow.mp3",
+      "text": "What information would you want before deciding?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 19440,
+      "sha256": "814110e73927bee1b15a8c5b905d67808592af4e99ea39fdd94df7f2ddc7bb2b"
+    },
+    {
+      "file": "follow-39-natural.mp3",
+      "text": "If the manager does not answer, how could you offer to take a message?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 24480,
+      "sha256": "bde19eaba3ffca274dce951e433f4bde96765230ae090f08f0572be87ed1aa9c"
+    },
+    {
+      "file": "follow-39-slow.mp3",
+      "text": "If the manager does not answer, how could you offer to take a message?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 30528,
+      "sha256": "a9627dc4ffee181fb8e4ea0347e469a518e56dc62250d9d00ab2d1c2f6dc7051"
+    },
+    {
+      "file": "follow-4-natural.mp3",
+      "text": "What about Wednesday afternoon?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 11376,
+      "sha256": "cd01bc8e065ffb4c7fc251f2f8f11f26f6916432f6e9594297f808c9155946bc"
+    },
+    {
+      "file": "follow-4-slow.mp3",
+      "text": "What about Wednesday afternoon?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 14688,
+      "sha256": "755477384c832618681ccb1f5a4586e1c3ccac2a7421f2943866f2bc0dbaa0f9"
+    },
+    {
+      "file": "follow-5-natural.mp3",
+      "text": "What made you choose that subject?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 11664,
+      "sha256": "24a97ceed39995834a70b5ce69f2efdf905d8699f576487395716e54f7c06f00"
+    },
+    {
+      "file": "follow-5-slow.mp3",
+      "text": "What made you choose that subject?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 14832,
+      "sha256": "6dde6322a9ef81c5124be9f41e9b29d32c205366c2da2445ed3baf17c5dc8964"
+    },
+    {
+      "file": "follow-6-natural.mp3",
+      "text": "What was your own role in that project?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 12960,
+      "sha256": "59d943b0959bc9b2c642bd19f6d7395c9a66eb73b6ad09007e386305fac651c8"
+    },
+    {
+      "file": "follow-6-slow.mp3",
+      "text": "What was your own role in that project?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 15696,
+      "sha256": "830c05185b63f1f72bfb50c352f3b1b6f79f1cc85d77b0d24bc5771bb125c0c6"
+    },
+    {
+      "file": "follow-7-natural.mp3",
+      "text": "What do you do when your schedule gets busy?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 13392,
+      "sha256": "6eaa2a233a671eb6a2fefc3ec2b09d1985ceee9d0552bfbfe50d1911491d395c"
+    },
+    {
+      "file": "follow-7-slow.mp3",
+      "text": "What do you do when your schedule gets busy?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 17280,
+      "sha256": "16ade41d4555868d3c1182b685d94dcc24be427477924b8046bf7153d48b2751"
+    },
+    {
+      "file": "follow-8-natural.mp3",
+      "text": "Would you rather do that alone or with other people?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 17280,
+      "sha256": "b486d36eed68e4fd155519b5f7796192babf303c1b139e7cdab18433c08ef242"
+    },
+    {
+      "file": "follow-8-slow.mp3",
+      "text": "Would you rather do that alone or with other people?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 21888,
+      "sha256": "db2b6afb86779ff9eed7df74202efee9e3d2dbf106e3f031eed33b05f6cc976b"
+    },
+    {
+      "file": "follow-9-natural.mp3",
+      "text": "What would you do differently next time?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 12096,
+      "sha256": "ac75c29b3e8de9b4f27a97c3f4746be0ff08f5ef1825c01a96fcde6ff64d004a"
+    },
+    {
+      "file": "follow-9-slow.mp3",
+      "text": "What would you do differently next time?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 15552,
+      "sha256": "460585cfffda9d04eb3bc8a90f2cc990b669facb1dc3b81298e1288423957ca5"
+    },
+    {
+      "file": "q-0-natural.mp3",
+      "text": "What is your primary goal for joining the Work & Travel USA program?",
+      "variant": "natural",
+      "role": "interviewer",
+      "bytes": 28224,
+      "sha256": "238d11e78b775b365548a01a0a9342dfa7ebd757ca05187e36fdc06bef3ab080",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    {
+      "file": "q-0-slow.mp3",
+      "text": "What is your primary goal for joining the Work & Travel USA program?",
+      "variant": "slow",
+      "role": "interviewer",
+      "bytes": 33408,
+      "sha256": "14e3402bec2e816931c79b2e7fae5f024a71c816890397dbda9a84675ee8b877",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%"
+    },
+    {
+      "file": "q-12-natural.mp3",
+      "text": "Hi, this is John from room 305. Could you connect me to the front desk manager?",
+      "variant": "natural",
+      "role": "interviewer",
+      "bytes": 34704,
+      "sha256": "0fd89d828161769bebd855560e226f1b1f1a1486eca8854657e6feb04222db30",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    {
+      "file": "q-12-slow.mp3",
+      "text": "Hi, this is John from room 305. Could you connect me to the front desk manager?",
+      "variant": "slow",
+      "role": "interviewer",
+      "bytes": 43632,
+      "sha256": "8d0c223211725904d1ed9871aa9c378abe54cd938955685ffabc7203403ed08f",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%"
+    },
+    {
+      "file": "q-13-natural.mp3",
+      "text": "Hi, welcome. What should I call you?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 14256,
+      "sha256": "430141e98eea5dcd8bcf70623e7587911b3511467ae84f8fb6ca4aeed50dee0e"
+    },
+    {
+      "file": "q-13-slow.mp3",
+      "text": "Hi, welcome. What should I call you?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 16992,
+      "sha256": "06d0d6d05b4aa3f192de7879e0c8cddc173ef67684a4ea15d9e7fec614d757e7"
+    },
+    {
+      "file": "q-14-natural.mp3",
+      "text": "Could you spell your last name for me?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 10944,
+      "sha256": "14c49b0fed2ab56879627726b6e62052a6f9a74d141b23fd7d71990b57b9eaad"
+    },
+    {
+      "file": "q-14-slow.mp3",
+      "text": "Could you spell your last name for me?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 13680,
+      "sha256": "337b569d247a78cd740ffe185ef8e25edbc608850eaaaff929a2130040909800"
+    },
+    {
+      "file": "q-15-natural.mp3",
+      "text": "Your shift starts at nine fifteen tomorrow. Can you confirm that?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 26640,
+      "sha256": "4070caeab708493777dc5a23c5cbc1923d307623b9f4947ff6568ffa069f6c34"
+    },
+    {
+      "file": "q-15-slow.mp3",
+      "text": "Your shift starts at nine fifteen tomorrow. Can you confirm that?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 30960,
+      "sha256": "96bb0f49ea1dba6f1171e0ce82175996c18ef1e79594989052892a837ab2901d"
+    },
+    {
+      "file": "q-16-natural.mp3",
+      "text": "Please put the clean cups beside the register and bring the empty tray to the kitchen.",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 29952,
+      "sha256": "ee9c911c8ffe4bf649b5fad36be9aa8fb8388fd630dfa6762e094d591e25d9c9"
+    },
+    {
+      "file": "q-16-slow.mp3",
+      "text": "Please put the clean cups beside the register and bring the empty tray to the kitchen.",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 36576,
+      "sha256": "d3b328adfd736a7add7cb4b245ca549a5925213ff0c1a28186e5f349b2aff077"
+    },
+    {
+      "file": "q-17-natural.mp3",
+      "text": "Did you mean that you can work on Tuesday, but not on Thursday?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 21312,
+      "sha256": "2b37f9bcb836f3af9c3aa57e4e6401f2ef590b97ba854284c5288562a1ea26f5"
+    },
+    {
+      "file": "q-17-slow.mp3",
+      "text": "Did you mean that you can work on Tuesday, but not on Thursday?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 26640,
+      "sha256": "1602facfe0efc81d3d73d01d1e5f6e2fb48ceb56cb73b63e9626f1f2b3be5fea"
+    },
+    {
+      "file": "q-18-natural.mp3",
+      "text": "Tell me who you are and what you are studying at the moment.",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 19008,
+      "sha256": "a4d32af359446f4ca4f6718a1b84c78fa9f35ddb6c1957be55530652f1860c72"
+    },
+    {
+      "file": "q-18-slow.mp3",
+      "text": "Tell me who you are and what you are studying at the moment.",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 23760,
+      "sha256": "7a389f800176ec44fcea2f4c4634ec6755cff25caafeb57822c13aaccb514ad3"
+    },
+    {
+      "file": "q-19-natural.mp3",
+      "text": "Which part of your studies do you enjoy most, and why?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 20160,
+      "sha256": "0cbf4a5dfc5accde720b66d25a89dc3240173e5e199ce156cfd5fb3431b76b01"
+    },
+    {
+      "file": "q-19-slow.mp3",
+      "text": "Which part of your studies do you enjoy most, and why?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 26064,
+      "sha256": "970719ed75c02e274027626c6799d46e3d36b8148ba6b85498dab9b684bc515e"
+    },
+    {
+      "file": "q-2-natural.mp3",
+      "text": "Tell me a little about yourself and what you’re studying.",
+      "variant": "natural",
+      "role": "interviewer",
+      "bytes": 20592,
+      "sha256": "eefb0849211eda7e6a0e81a0dc151164c2b315abd648daa0ec2cd5292daf4cca",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    {
+      "file": "q-2-slow.mp3",
+      "text": "Tell me a little about yourself and what you’re studying.",
+      "variant": "slow",
+      "role": "interviewer",
+      "bytes": 24480,
+      "sha256": "c4e8d8bf20e1176cf3f5a2183103d5e717e3bcf4f6c00d1d91d86edba4ec1865",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%"
+    },
+    {
+      "file": "q-20-natural.mp3",
+      "text": "How do you spend a typical day at university?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 17280,
+      "sha256": "7167d8e39f00a88db88f670c39a60d7dd8ede7bb223f99f58797ed8abe730e90"
+    },
+    {
+      "file": "q-20-slow.mp3",
+      "text": "How do you spend a typical day at university?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 20160,
+      "sha256": "7d63b3b27703382305818b7801079c9d5e93d804c740a4bf23f3e226fd0616b6"
+    },
+    {
+      "file": "q-21-natural.mp3",
+      "text": "What do you enjoy doing when you have time off?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 16560,
+      "sha256": "d8b8451daf0cc1bfa73d546d75d46c07582feb81c5cc1aae64854c25c6d5bab3"
+    },
+    {
+      "file": "q-21-slow.mp3",
+      "text": "What do you enjoy doing when you have time off?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 20880,
+      "sha256": "9f040f008c6349ba455eb54b09d6c7090beab1033ea7cd0778d4f957d497f1df"
+    },
+    {
+      "file": "q-22-natural.mp3",
+      "text": "Tell me about a time you learned something new.",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 14688,
+      "sha256": "aed9ad2e9991dda85a52a422f9e99ab37a5c08fc5933666086dc9220aaa2801f"
+    },
+    {
+      "file": "q-22-slow.mp3",
+      "text": "Tell me about a time you learned something new.",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 20592,
+      "sha256": "ff8babf9d788af6718918d0383d6fac947028e9e498ce61d5c330976ff8457cf"
+    },
+    {
+      "file": "q-23-natural.mp3",
+      "text": "Why does a summer work and travel experience interest you?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 19440,
+      "sha256": "531295228edf27a8e032e3444fdc45f055682b43201b42e19f616b41442248c6"
+    },
+    {
+      "file": "q-23-slow.mp3",
+      "text": "Why does a summer work and travel experience interest you?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 24480,
+      "sha256": "4f0d6d52f9f578699b164712cccac0aa56eeba7c3a440108e58b9d1fd0c3e280"
+    },
+    {
+      "file": "q-24-natural.mp3",
+      "text": "What do you hope to learn from living in a different country?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 16704,
+      "sha256": "de816c0951fede1c3f1f17d2733ebcccfd44c811066b4dc7fada7712fc032cad"
+    },
+    {
+      "file": "q-24-slow.mp3",
+      "text": "What do you hope to learn from living in a different country?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 21168,
+      "sha256": "28766946c76d9e5b492ae6d11d1d0f3d714ca2152f05b10cb98d94908827f34f"
+    },
+    {
+      "file": "q-25-natural.mp3",
+      "text": "What kind of work would suit you, and why?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 11952,
+      "sha256": "78ecd435c698387d2c43226c4993c27fa4a3ffec8d5d4843c5ad012ed91ed7a4"
+    },
+    {
+      "file": "q-25-slow.mp3",
+      "text": "What kind of work would suit you, and why?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 14544,
+      "sha256": "1e127eb11c147a97f41aeba5833736d2b8e2f63b6ff6a0a91a91aa2866f1ccee"
+    },
+    {
+      "file": "q-26-natural.mp3",
+      "text": "How would you share something from your own culture with a coworker?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 19008,
+      "sha256": "2a5d3562db6fea5150296f110e2e94d472f75c92b8d2cd1377b5b0642b6720e9"
+    },
+    {
+      "file": "q-26-slow.mp3",
+      "text": "How would you share something from your own culture with a coworker?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 23616,
+      "sha256": "5f0579183fe9a483266a621dbc92f5fdc8a1782aca9762ef5117e485142486c3"
+    },
+    {
+      "file": "q-27-natural.mp3",
+      "text": "If you missed home, how would you keep yourself focused?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 18432,
+      "sha256": "d5496dccfc1931fa9e158a942a76063b01f5df586350e068ac7ce2a65137438a"
+    },
+    {
+      "file": "q-27-slow.mp3",
+      "text": "If you missed home, how would you keep yourself focused?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 23328,
+      "sha256": "37669a6d58ff32b3d4849204a36123fb29aa4cff2b2674059a475a95da8d630f"
+    },
+    {
+      "file": "q-28-natural.mp3",
+      "text": "Tell me about a time you took responsibility for a task.",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 26496,
+      "sha256": "29fcc9d0e92c820a05a7415a7969a02f3ed984c7d6706a5aad44f8f25c936244"
+    },
+    {
+      "file": "q-28-slow.mp3",
+      "text": "Tell me about a time you took responsibility for a task.",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 32112,
+      "sha256": "935278d9d57478add607ba3ed6d69efa92f631b893018d0452fab8b61b0ef2b0"
+    },
+    {
+      "file": "q-29-natural.mp3",
+      "text": "How would you handle two tasks that both seem urgent?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 19440,
+      "sha256": "98a86fc49527d84e67c081569c09ed12ad971e16f6fa1e6abb0f1b33994931de"
+    },
+    {
+      "file": "q-29-slow.mp3",
+      "text": "How would you handle two tasks that both seem urgent?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 24480,
+      "sha256": "addeb69936a987d9026c574418a7d2afbac885530325b17c995f1df2f88fdcdb"
+    },
+    {
+      "file": "q-3-natural.mp3",
+      "text": "Have you ever had a job or taken responsibility in a team?",
+      "variant": "natural",
+      "role": "interviewer",
+      "bytes": 23616,
+      "sha256": "16bb959ed659bba6363dae9a9ef835e1653bcbba38ab174271aa399acd584b72",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    {
+      "file": "q-3-slow.mp3",
+      "text": "Have you ever had a job or taken responsibility in a team?",
+      "variant": "slow",
+      "role": "interviewer",
+      "bytes": 29520,
+      "sha256": "9b48efba95c4dc35462541f909d8b5dcad669e846d9866f2970254bb53cc6040",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%"
+    },
+    {
+      "file": "q-30-natural.mp3",
+      "text": "What would you do if you made a mistake at work?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 13104,
+      "sha256": "f2e2138793cc847ead3d85945a1072f6d6639f267624c960b58e82e23c81c714"
+    },
+    {
+      "file": "q-30-slow.mp3",
+      "text": "What would you do if you made a mistake at work?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 17568,
+      "sha256": "e16846a494532ca220e0a87a24e8e4064808e273e23179925610076e79032353"
+    },
+    {
+      "file": "q-31-natural.mp3",
+      "text": "How would you learn a task you have never done before?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 16848,
+      "sha256": "e7db7b7d514eed03b777b11f8e1a0692e7af0ae59dcd0552382302866afc3c95"
+    },
+    {
+      "file": "q-31-slow.mp3",
+      "text": "How would you learn a task you have never done before?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 20880,
+      "sha256": "061687e26baae8390606dea8d04cb95b638516eca09b98ef56ea42ecc4880968"
+    },
+    {
+      "file": "q-32-natural.mp3",
+      "text": "What would you like to ask me about this job?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 12960,
+      "sha256": "e409a24c910e53d0a29df6eacff22779a02f12af8227f63c30d0b96aba62e263"
+    },
+    {
+      "file": "q-32-slow.mp3",
+      "text": "What would you like to ask me about this job?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 15840,
+      "sha256": "aa9887ddf963886576a21ea838d9d33c4e32881eb67c240184671689b3c501d7"
+    },
+    {
+      "file": "q-33-natural.mp3",
+      "text": "Hi, I would like a small coffee with oat milk, please.",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 21456,
+      "sha256": "408924b62536fb687997bf0598ffac8763e72972596cd7ac765d68f1122eac85"
+    },
+    {
+      "file": "q-33-slow.mp3",
+      "text": "Hi, I would like a small coffee with oat milk, please.",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 27504,
+      "sha256": "44241c7d41c1c2c940912695ee3b81507000f0d598269426fe3dbd6f39cf5f07"
+    },
+    {
+      "file": "q-34-natural.mp3",
+      "text": "Does this sandwich contain nuts?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 12528,
+      "sha256": "84a078b9a9c9c1768e5da11da48d62f44e5f8e1eb660273cd2c8785b833d4f10"
+    },
+    {
+      "file": "q-34-slow.mp3",
+      "text": "Does this sandwich contain nuts?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 15840,
+      "sha256": "c7ab567b00bf4fc7956138d8d5e37dfcdd3e49a9492e1317ed45254b06053892"
+    },
+    {
+      "file": "q-35-natural.mp3",
+      "text": "I ordered tea, but you brought me coffee.",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 16704,
+      "sha256": "ed180a85e4ef4b0bf12988b87ff84b852bfe9f44fef1f244c34dd24fc31700b2"
+    },
+    {
+      "file": "q-35-slow.mp3",
+      "text": "I ordered tea, but you brought me coffee.",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 21024,
+      "sha256": "81291273a8f462cac4d9d5b3e4c7ad9ffdb98639186264b7138d74b8f7ce8961"
+    },
+    {
+      "file": "q-36-natural.mp3",
+      "text": "How long is the wait for a table?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 17424,
+      "sha256": "7a9fda8c9e92c1a6b49f1a97298f50a88a2ee081804c3a0b23bee741b2f0cb41"
+    },
+    {
+      "file": "q-36-slow.mp3",
+      "text": "How long is the wait for a table?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 20736,
+      "sha256": "7bc807a9ac64c91d1ee8d7c1bd899ccb06a821952d1231114f5ef262bd05444f"
+    },
+    {
+      "file": "q-37-natural.mp3",
+      "text": "I have been waiting for ten minutes. What is taking so long?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 22752,
+      "sha256": "e4053f10fc779d15f4cf9de6e65351642da5b44cdcba3f1668b4432e047d9004"
+    },
+    {
+      "file": "q-37-slow.mp3",
+      "text": "I have been waiting for ten minutes. What is taking so long?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 29232,
+      "sha256": "2a4953e8f07945ac84fdcda42f66a95ac0dfa610977391c407fe2bfec5acb26b"
+    },
+    {
+      "file": "q-38-natural.mp3",
+      "text": "I am calling to ask what time the front desk closes.",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 17856,
+      "sha256": "3e05f79b55ef3af4978cfec9a59888c619b9934c362d6fc181fb91f16d27050e"
+    },
+    {
+      "file": "q-38-slow.mp3",
+      "text": "I am calling to ask what time the front desk closes.",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 22752,
+      "sha256": "4a6caa6282fa2698f6fbde51d5e185baad453b35d8e9618f3df2f4b26fe90163"
+    },
+    {
+      "file": "q-39-natural.mp3",
+      "text": "Hi, this is Morgan in room 214. May I speak to the manager?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 31248,
+      "sha256": "3ec8658458cd33f93769bb974b13d0cc69305e9ceca51959b91e2aa88e4af08c"
+    },
+    {
+      "file": "q-39-slow.mp3",
+      "text": "Hi, this is Morgan in room 214. May I speak to the manager?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 38448,
+      "sha256": "7beeace58b5eb978e8cea18032f28c968f40f4d85e5c7019c998d739383bd02d"
+    },
+    {
+      "file": "q-4-natural.mp3",
+      "text": "What would you do if you did not get your first choice of job?",
+      "variant": "natural",
+      "role": "interviewer",
+      "bytes": 18432,
+      "sha256": "0b30ccb93ec1aa7b51cdcf6c47dda9397924f492350c85ff0efcb0b76eb96b52",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%"
+    },
+    {
+      "file": "q-4-slow.mp3",
+      "text": "What would you do if you did not get your first choice of job?",
+      "variant": "slow",
+      "role": "interviewer",
+      "bytes": 22752,
+      "sha256": "741e57ea52dd07327782e929a4ef95e95337e2c2c09439c32e9fbba1d3b72d13",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%"
+    },
+    {
+      "file": "q-40-natural.mp3",
+      "text": "My last name is Rivera. Do you have my booking?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 21168,
+      "sha256": "e13b17e4f1019eea87b6ac3e6a28e3d30dacce536126bdd96915bf50f93fdf83"
+    },
+    {
+      "file": "q-40-slow.mp3",
+      "text": "My last name is Rivera. Do you have my booking?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 25632,
+      "sha256": "32164b17595a667c4c70ae2d5d0ce43a0b8254dc50bb5f02a10568fcdc9de2c7"
+    },
+    {
+      "file": "q-41-natural.mp3",
+      "text": "I want to check out at one tomorrow afternoon. Is that possible?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 21600,
+      "sha256": "901c6863e1eae120eb6560a0d9a39923bf6328873442d9387629ae41ab92681e"
+    },
+    {
+      "file": "q-41-slow.mp3",
+      "text": "I want to check out at one tomorrow afternoon. Is that possible?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 26640,
+      "sha256": "f313eeafa472f857768caa562d4cf8a8a13ac7261f7818309ae0e72ce5ff0b77"
+    },
+    {
+      "file": "q-42-natural.mp3",
+      "text": "Could you tell housekeeping that we need two more towels in room 214?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 30816,
+      "sha256": "557d448663fa114bd750675b74f76286861bdfb02a740c2ffead0aed6ebba53f"
+    },
+    {
+      "file": "q-42-slow.mp3",
+      "text": "Could you tell housekeeping that we need two more towels in room 214?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 37440,
+      "sha256": "f95a4932b383efe56343928dfc4c3efb89828d90f0dfafe520792e1f2addf62f"
+    },
+    {
+      "file": "q-43-natural.mp3",
+      "text": "Your first task is to restock the shelf before your break. What will you do?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 30240,
+      "sha256": "201f46fa48ab5a9162b32bd0c4389c7fdcbcad23361793eae837554405456960"
+    },
+    {
+      "file": "q-43-slow.mp3",
+      "text": "Your first task is to restock the shelf before your break. What will you do?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 37872,
+      "sha256": "2bcd622289209078642ce0426b50aa47abbf944c4de20d37017db1e324a1665b"
+    },
+    {
+      "file": "q-44-natural.mp3",
+      "text": "Can you cover my shift on Friday evening?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 15552,
+      "sha256": "aa6849768a0d1a31fc3c2834f70265e08789903d398dc8717c7325f72e1295e8"
+    },
+    {
+      "file": "q-44-slow.mp3",
+      "text": "Can you cover my shift on Friday evening?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 19008,
+      "sha256": "6b24d635b801e40a173e6bd30772055d1f7478e4673dc8c432008ac16f58f835"
+    },
+    {
+      "file": "q-45-natural.mp3",
+      "text": "I am not sure how to use this machine. Can you show me?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 20736,
+      "sha256": "fc8793c7f8d0be70e8fa2de0a890c39f324d1cf791165aa74f9d44c170ece171"
+    },
+    {
+      "file": "q-45-slow.mp3",
+      "text": "I am not sure how to use this machine. Can you show me?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 25488,
+      "sha256": "5dc3d96440302819e2c3f40ed55316254e0f00395b04156ecdaf02229a7df81b"
+    },
+    {
+      "file": "q-46-natural.mp3",
+      "text": "You seem quieter than usual today. Is everything okay?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 22464,
+      "sha256": "92a45f79d801e301372ea499562189b8d2727b0046f929c7fb426f7af7b1cd00"
+    },
+    {
+      "file": "q-46-slow.mp3",
+      "text": "You seem quieter than usual today. Is everything okay?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 28656,
+      "sha256": "4fe558f3a38a51b5e6b10b243020a0c5d456a541fe3eb8aa5de66ab93d6e7575"
+    },
+    {
+      "file": "q-47-natural.mp3",
+      "text": "The bus is late and your shift starts in twenty minutes. What would you tell your supervisor?",
+      "variant": "natural",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 31968,
+      "sha256": "2ef1290a09ffd50ae9bf99dc6695ba5f321c1448698d51b538b2df0f5340e7d3"
+    },
+    {
+      "file": "q-47-slow.mp3",
+      "text": "The bus is late and your shift starts in twenty minutes. What would you tell your supervisor?",
+      "variant": "slow",
+      "role": "interviewer",
+      "voice": "en-US-AndrewMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 40032,
+      "sha256": "df4ec5aa04ebd197ac08cf41b033063776fcac8969ad825e407e29866b593ca7"
+    },
+    {
+      "file": "rescue-0-natural.mp3",
+      "text": "I’m sorry, I didn’t quite catch that. Could you say it again more slowly, please?",
+      "variant": "natural",
+      "role": "coach",
+      "bytes": 32688,
+      "sha256": "963577d19a8b02d8e597e1575d0d8dbf558a8860f6f5db3be38d83abdc135c13",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%"
+    },
+    {
+      "file": "rescue-0-slow.mp3",
+      "text": "I’m sorry, I didn’t quite catch that. Could you say it again more slowly, please?",
+      "variant": "slow",
+      "role": "coach",
+      "bytes": 41040,
+      "sha256": "4628ad3ec0f9b6e198be1ab3c01dea9a95a8aa5022f37b90054ddbba0e33aab5",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%"
+    },
+    {
+      "file": "rescue-1-natural.mp3",
+      "text": "Would you mind spelling your last name for me?",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 13392,
+      "sha256": "4abe0c6c4c61f155ded9084ca5d8c88deb6feb28b5c8df3521179b42c0670ef8"
+    },
+    {
+      "file": "rescue-1-slow.mp3",
+      "text": "Would you mind spelling your last name for me?",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 17856,
+      "sha256": "f927725d93305b6d3c8431d00cabb210c97055af37bfaed4f27e5c48af3a82b0"
+    },
+    {
+      "file": "rescue-2-natural.mp3",
+      "text": "Of course. Please hold on for a moment. I’ll transfer your call to the manager.",
+      "variant": "natural",
+      "role": "coach",
+      "bytes": 32832,
+      "sha256": "38ab34673dabad8cc24a929c0bf72780d6204839af24c85e3669553368626dc2",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%"
+    },
+    {
+      "file": "rescue-2-slow.mp3",
+      "text": "Of course. Please hold on for a moment. I’ll transfer your call to the manager.",
+      "variant": "slow",
+      "role": "coach",
+      "bytes": 40896,
+      "sha256": "b325f9da8c4315228fa0302ceba1c1054e4d46088c804f1a4fe191b9392382c7",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%"
+    },
+    {
+      "file": "rescue-3-natural.mp3",
+      "text": "Sorry, I didn’t catch the last three digits. Could you say them again, please?",
+      "variant": "natural",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%",
+      "bytes": 30240,
+      "sha256": "1bef7ca4b757c2cf07f59e0b4eeee72ae44bbd597de7c7e2085965d8ac350841"
+    },
+    {
+      "file": "rescue-3-slow.mp3",
+      "text": "Sorry, I didn’t catch the last three digits. Could you say them again, please?",
+      "variant": "slow",
+      "role": "coach",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%",
+      "bytes": 37440,
+      "sha256": "9d37df639ff68d249ddc5c3eccdde8fcd5cb1bc31ebbd1288281a15d22f13ad8"
+    },
+    {
+      "file": "rescue-4-natural.mp3",
+      "text": "Let me make sure I understood correctly. You mean you’d like to check out at 1 p.m., right?",
+      "variant": "natural",
+      "role": "coach",
+      "bytes": 31824,
+      "sha256": "b4afac67823df6f30fa94e1e572a09827669d9435dad8147e547c8ac3059d049",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%"
+    },
+    {
+      "file": "rescue-4-slow.mp3",
+      "text": "Let me make sure I understood correctly. You mean you’d like to check out at 1 p.m., right?",
+      "variant": "slow",
+      "role": "coach",
+      "bytes": 38592,
+      "sha256": "14e370d1bb5ec8e7a4a47c0dcaea200f72e4b4dc7c514c517b848d811ce723a8",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%"
+    },
+    {
+      "file": "rescue-5-natural.mp3",
+      "text": "That’s a good question. Let me think for a moment.",
+      "variant": "natural",
+      "role": "coach",
+      "bytes": 19008,
+      "sha256": "7d857eadb3c202cbe324e9d4c5adf76df733f15eb9b46d57c5059ffd1ed5f220",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-4%"
+    },
+    {
+      "file": "rescue-5-slow.mp3",
+      "text": "That’s a good question. Let me think for a moment.",
+      "variant": "slow",
+      "role": "coach",
+      "bytes": 25344,
+      "sha256": "d759ecab518004b8fc34379fc7d05d09b780c595ca920283b1d15ceaecae5775",
+      "voice": "en-US-AvaMultilingualNeural",
+      "rate": "-23%"
+    }
+  ]
+}
