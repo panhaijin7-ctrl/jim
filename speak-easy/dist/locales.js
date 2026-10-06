@@ -197,16 +197,16 @@ window.SpeakEasyStrings = {
     "最近自评 / 4"
   ],
   "browseCourse": [
-    "Explore the eight units",
-    "查看八课路线"
+    "Explore your conversation route",
+    "查看口语学习路线"
   ],
   "courseTitle": [
-    "Eight units. Forty conversations.",
-    "八课，四十个真实情境。"
+    "21 units. 105 ways to keep talking.",
+    "21 课，105 个开口练习。"
   ],
   "courseIntro": [
-    "Start with introductions, then prepare for interviews, customer service, phone calls and teamwork. Every unit is available; revisit any task.",
-    "从开口介绍，逐步练到面试、顾客服务、电话和团队协作。所有课程均可进入，也可以反复练习。"
+    "Five tasks per round: introductions, interviews, follow-ups, job situations and daily life. Try one unit, then revisit it without the answer frame. Every unit is available.",
+    "每轮 5 题，从介绍、面试练到连续追问、岗位情境和日常生活。先练一课，再关掉句型提示复练；所有课程均可进入。"
   ],
   "courseLimits": [
     "A focused core course, not a complete general-English curriculum or an official SWT test. Your provider’s process and workplace training take priority.",
@@ -612,9 +612,9 @@ window.SpeakEasyStrings = {
     "Clear this device’s journal",
     "清空本机学习记录"
   ],
-  "eightUnits": [
-    "Eight core units",
-    "八课核心路线"
+  "courseUnits": [
+    "Your conversation route",
+    "你的口语学习路线"
   ],
   "reviewQueue": [
     "Worth another attempt",

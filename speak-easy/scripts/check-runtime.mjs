@@ -7,6 +7,7 @@ const root=new URL('../',import.meta.url);
 const app=fs.readFileSync(new URL('dist/app.js',root),'utf8');
 const course={window:{}};
 vm.runInNewContext(fs.readFileSync(new URL('dist/course-data.js',root),'utf8'),course);
+vm.runInNewContext(fs.readFileSync(new URL('dist/course-expansion.js',root),'utf8'),course);
 const lessons=course.window.SpeakEasyCourse.lessons;
 const allTasks=lessons.flatMap(lesson=>lesson.tasks.map(task=>({task,lesson})));
 const storeKey='speak-easy-progress-v2';
@@ -25,16 +26,16 @@ function functionSource(name){
 function fixture(memory=new Map()){
   const elements=new Map(),messages=[];
   const element=selector=>{
-    if(!elements.has(selector))elements.set(selector,{hidden:false,disabled:false,value:selector==='#practiceMode'?'guided':'unchanged learner input',textContent:'',classList:{contains:()=>true,add(){},remove(){}},replaceChildren(){},addEventListener(){},pause(){}});
+    if(!elements.has(selector))elements.set(selector,{hidden:false,disabled:false,value:selector==='#practiceMode'?'guided':'unchanged learner input',textContent:'',classList:{contains:()=>true,add(){},remove(){}},replaceChildren(){},append(){},addEventListener(){},pause(){}});
     return elements.get(selector);
   };
   const c={lessons,allTasks,storeKey,hasSpeechAssets:true,current:0,round:null,questionInProgress:true,questionRevision:1,microphoneTicket:0,recorder:null,stream:null,recordUrl:null,activeElapsed:10000,activeStarted:0,lastResult:null,document:{hidden:false,createElement:()=>element('created')},window:{MediaRecorder:true},navigator:{mediaDevices:{}},quotaFailure:false,resumed:0,savedWrites:0,Blob,URL,console,
-    local:value=>value.en,t:key=>key,toast:message=>messages.push(message),$:selector=>selector==='#audioWrap audio'?null:element(selector),$$:()=>[],stopSpeech(){},stopCue(){},cleanAudio(){},pausePractice(){},resumePractice(){c.resumed++},resetTimer(){},renderStats(){},renderCourse(){},renderHome(){},renderResult(){},renderTaskLabels(){},celebrate(){},showView(){},playCue(){},
+    locale:'en',esc:value=>String(value??''),formatDuration:seconds=>String(seconds),local:value=>value.en,t:key=>key,toast:message=>messages.push(message),$:selector=>selector==='#audioWrap audio'?null:element(selector),$$:()=>[],stopSpeech(){},stopCue(){},cleanAudio(){},pausePractice(){},resumePractice(){c.resumed++},resetTimer(){},renderStats(){},renderCourse(){},renderHome(){},renderResult(){},renderTaskLabels(){},celebrate(){},showView(){},playCue(){},
     localStorage:{getItem:key=>memory.get(key)??null,setItem:(key,value)=>{if(c.quotaFailure)throw new Error('QuotaExceededError');memory.set(key,value);c.savedWrites++}},
     renderQuestion:index=>{c.current=index;c.activeElapsed=10000;c.questionInProgress=true;c.questionRevision++}
   };
   vm.createContext(c);
-  const names=['validateDraft','load','save','stopRecorder','startUnit','toggleRecord','recordAnswer','applyMode','idleVoiceStatus','speak'];
+  const names=['validateDraft','load','save','completedUnits','mockUnit','recommended','stopRecorder','startUnit','toggleRecord','recordAnswer','applyMode','idleVoiceStatus','speak'];
   for(const name of names)vm.runInContext(functionSource(name),c);
   vm.runInContext(app.match(/const empty=([^;]+);/)[0],c);
   c.state=c.load();
@@ -163,5 +164,35 @@ passed('literal controller ID selectors resolve in the HTML');
   const {c}=fixture();c.$('#practiceMode').value='challenge';c.applyMode();
   assert.equal(c.$('#practiceMode').value,'challenge');assert.equal(c.$('#questionText').hidden,true);
   passed('full-audio mode retains the listen-first challenge');
+}
+{
+  const {c,memory}=fixture();const index=lessons.length-1,offset=index*5;
+  c.startUnit(index);assert.equal(c.current,offset);
+  c.recordAnswer([3,3,3,3],'My new mock checkpoint.');
+  const reload=fixture(memory).c;reload.startUnit(index);
+  assert.equal(reload.current,offset+1);assert.equal(reload.round.answers[0].taskId,'task-101');
+  for(let i=1;i<5;i++)reload.recordAnswer([3,3,3,3],'');
+  assert.equal(reload.state.sessions[0].lessonId,'extended-mock');
+  assert.equal(reload.state.sessions[0].answers.at(-1).taskId,'task-105');
+  assert.equal(reload.state.pendingRounds['extended-mock'],undefined);
+  passed('new final unit resumes and saves all five extended tasks');
+}
+{
+  const sessions=lessons.slice(0,8).map(l=>({lessonId:l.id,date:'2026-10-06T00:00:00Z',score:3,seconds:50,questions:5,notes:[],answers:[]}));
+  const {c}=fixture(new Map([[storeKey,JSON.stringify({sessions,totalSeconds:400})]]));
+  assert.equal(c.completedUnits().size,8);assert.equal(c.recommended(),8);
+  assert.equal(c.mockUnit(),20);assert.equal(lessons[c.mockUnit()].id,'extended-mock');
+  c.state.sessions=lessons.map(l=>({...sessions[0],lessonId:l.id}));
+  assert.equal(c.recommended(),20);
+  assert.ok(app.includes("$('#startMock').addEventListener('click',()=>startUnit(mockUnit()))"));
+  passed('old eight-unit completion unlocks new content and mock targets the extended unit');
+}
+{
+  const {c}=fixture();vm.runInContext(functionSource('renderStats'),c);
+  c.renderStats();assert.equal(c.$('#phaseText').textContent,'0 / 21');
+  assert.equal((c.$('#phaseTrack').innerHTML.match(/<span /g)||[]).length,21);
+  c.state.sessions=[{lessonId:lessons[0].id,date:'2026-10-06T00:00:00Z',score:3,seconds:50,questions:5,notes:[],answers:[]}];
+  c.renderStats();assert.equal(c.$('#phaseText').textContent,'1 / 21');
+  passed('journal renders the expanded unit count instead of a hard-coded eight');
 }
 console.log(JSON.stringify({status:'passed',checks:checks.length,details:checks}));

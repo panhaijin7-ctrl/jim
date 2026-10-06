@@ -51,6 +51,8 @@
     [R(/\b(would|will|ask|learn|effort)\b/i,'A constructive action','建设性行动','I would ask about the role and learn the work.'),R(/\b(role|training|responsibilities|job|work)\b/i,'The actual work','实际岗位内容','What training and responsibilities would the role involve?'),R(/\b(flexible|responsib|suitable|willing|learn|effort)\w*\b/i,'Flexibility or responsibility','灵活性或责任','If suitable, I would learn the work and do it responsibly.')],
     [R(/\b(of course|certainly|sure|yes)\b/i,'Acknowledgement','回应请求','Of course.'),R(/\bhold\b/i,'A request to hold','请稍等','Please hold on for a moment.'),R(/\b(transfer|connect)\b.*\bmanager\b/i,'A transfer to the manager','转接给经理','I’ll transfer your call to the front desk manager.')]
   ];
+  // Extension task IDs follow the original 40 without changing saved learner IDs.
+  rules.push(...window.SpeakEasyCourse.lessons.flatMap(l=>l.tasks).filter(t=>t.textClues).map(t=>t.textClues));
   const grammar = [
     [/\byou means\b/i,'You mean…','With “you,” use “mean,” not “means.”','you 作主语，使用 mean，不是 means。'],
     [/\bi am agree\b/i,'I agree.','“Agree” is already a verb; remove “am.”','agree 已经是动词，不需要 am。'],
@@ -71,7 +73,7 @@
     if(!spec)throw new Error('Unknown task');
     const items=spec.map(r=>{
       if(!r.pattern)return {...r,result:'manual',evidence:''};
-      const hit=typeof r.pattern==='function'?r.pattern(clean):clean.match(r.pattern);
+      const hit=clean.length>0&&(typeof r.pattern==='function'?r.pattern(clean):clean.match(r.pattern));
       return {...r,result:hit?'found':'missing',evidence:Array.isArray(hit)?hit[0]:hit?clean.slice(0,120):''};
     });
     return {found:items.filter(i=>i.result==='found').length,total:items.filter(i=>i.result!=='manual').length,items,

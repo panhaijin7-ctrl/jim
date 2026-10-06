@@ -4,6 +4,7 @@ import vm from 'node:vm';
 // Export the site's own fixed lesson text. No learner answers are sent to TTS.
 const context = { window: {} };
 vm.runInNewContext(fs.readFileSync(new URL('../dist/course-data.js', import.meta.url), 'utf8'), context, { timeout: 1000 });
+vm.runInNewContext(fs.readFileSync(new URL('../dist/course-expansion.js', import.meta.url), 'utf8'), context, { timeout: 1000 });
 const { lessons, rescue, bank } = context.window.SpeakEasyCourse;
 const prompts = [
   ...lessons.flatMap(l => l.tasks.flatMap(q => [

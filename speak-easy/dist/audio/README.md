@@ -11,7 +11,9 @@ not an independent legal determination or a grant of rights from Microsoft.
 - Jamie / interviewer: `en-US-AndrewMultilingualNeural`.
 - Mia / practice partner: `en-US-AvaMultilingualNeural`.
 - Jamie and Mia are app persona labels, not separate voice models or cloned people.
-- 138 fixed texts, each with a natural (`-4%`) and slow (`-23%`) reading: 276 MP3 files.
+- 333 fixed texts, each with a natural (`-4%`) and slow (`-23%`) reading: 666 MP3 files.
+- The expansion added 390 clips for 65 new questions, models and follow-ups. The original
+  276 active clips were reused without regeneration or replacement.
 - Both variants play at 1x. Slow playback uses its own recording rather than changing pitch.
 - Texts consist only of the project's fixed questions, model answers, follow-ups and
   expression examples. No learner answers, recordings or private planning documents
@@ -22,7 +24,9 @@ not an independent legal determination or a grant of rights from Microsoft.
   are used. There is no Microsoft or Duolingo sponsorship or endorsement.
 
 The app needs no speech API key and makes no runtime TTS requests: it plays these files
-from the same static host as the lessons. No new speech was generated for this upload.
+from the same static host as the lessons. Extension speech was generated on 2026-10-06
+using the same two voices and reading rates. The optional maintenance generator is in
+`scripts/generate-voice.py`; it exports no learner inputs and is not a runtime app service.
 
 ## Original feedback sounds
 
